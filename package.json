@@ -1,0 +1,21 @@
+{
+  "name": "@bluedaniel/library-usage",
+  "version": "1.0.0",
+  "description": "Check usage of a library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Levitt <daniellevitt86@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "babylon": "^6.18.0",
+    "chalk": "^2.3.2",
+    "find-node-modules": "^1.0.4",
+    "glob": "^7.1.2",
+    "log-symbols": "^2.2.0",
+    "meow": "^4.0.0",
+    "ramda": "^0.25.0",
+    "recast": "^0.14.4"
+  }
+}
