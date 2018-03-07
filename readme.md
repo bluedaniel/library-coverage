@@ -18,13 +18,13 @@ $ npm install --global library-coverage
 $ library-coverage --help
 
   Usage
-	  $ library-coverage <input> -l ramda
-
-	Options
+    $ library-coverage <input> -l ramda
+  
+  Options
     --library, -l  Choose which library to evaluate
-
-	Examples
-	  $ library-coverage src/**.js -l ramda
+  
+  Examples
+    $ library-coverage src/**.js -l ramda
     $ library-coverage src/**.js -l redux-sagas
 ```
 
