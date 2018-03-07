@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+'use strict';
 const path = require('path');
 const meow = require('meow');
 const findModules = require('find-node-modules');
