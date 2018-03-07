@@ -16,7 +16,7 @@ const cli = meow(
     --library, -l  Choose which library to evaluate
 
 	Examples
-	  $ library-usage src/**.js --library ramda
+	  $ library-usage src/**.js -l ramda
 `,
   {
     flags: {
