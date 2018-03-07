@@ -1,6 +1,6 @@
 {
   "name": "library-coverage",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Check usage of a library",
   "main": "index.js",
   "scripts": {
