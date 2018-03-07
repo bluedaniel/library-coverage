@@ -11,7 +11,9 @@
     "node": ">=8"
   },
   "files": [
-    "cli.js"
+    "cli.js",
+    "lib/helpers.js",
+    "lib/parser.js"
   ],
   "author": "Daniel Levitt <daniellevitt86@gmail.com>",
   "license": "ISC",
