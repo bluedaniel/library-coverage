@@ -10,13 +10,13 @@ const { checkErrors, displayOutput, getUsedFns } = helpers;
 const cli = meow(
   `
 	Usage
-	  $ library-usage <input>
+	  $ library-coverage <input>
 
 	Options
     --library, -l  Choose which library to evaluate
 
 	Examples
-	  $ library-usage src/**.js -l ramda
+	  $ library-coverage src/**.js -l ramda
 `,
   {
     flags: {
