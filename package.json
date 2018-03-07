@@ -6,6 +6,13 @@
   "scripts": {
     "test": "xo"
   },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "cli.js"
+  ],
   "author": "Daniel Levitt <daniellevitt86@gmail.com>",
   "license": "ISC",
   "prettier": {
