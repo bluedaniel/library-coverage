@@ -1,6 +1,6 @@
 {
   "name": "library-coverage",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Check usage of a library",
   "main": "cli.js",
   "scripts": {
