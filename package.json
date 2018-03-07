@@ -8,9 +8,14 @@
   },
   "author": "Daniel Levitt <daniellevitt86@gmail.com>",
   "license": "ISC",
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "useTabs": false,
+    "bracketSpacing": true
+  },
   "xo": {
-    "prettier": true,
-    "space": true
+    "prettier": true
   },
   "dependencies": {
     "babylon": "^6.18.0",
@@ -19,6 +24,7 @@
     "glob": "^7.1.2",
     "log-symbols": "^2.2.0",
     "meow": "^4.0.0",
+    "prettier": "^1.11.1",
     "ramda": "^0.25.0",
     "recast": "^0.14.4"
   },
