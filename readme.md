@@ -6,6 +6,8 @@ This tool shows how many exports you are using within your codebase for a partic
 
 This can be useful to find unused functions or methods that might better fit your needs.
 
+![](https://raw.githubusercontent.com/bluedaniel/library-coverage/master/screenshot.png)
+
 ## Install
 
 ```
