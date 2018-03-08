@@ -1,12 +1,8 @@
 #!/usr/bin/env node
-'use strict';
-const path = require('path');
 const meow = require('meow');
-const findModules = require('find-node-modules');
-const { keys, pipe } = require('ramda');
 const helpers = require('./lib/helpers');
 
-const { checkErrors, displayOutput, getUsedFns } = helpers;
+const { checkErrors, displayOutput, getAvailableFns, getUsedFns } = helpers;
 
 const cli = meow(
   `
@@ -17,7 +13,7 @@ const cli = meow(
     --library, -l  Choose which library to evaluate
 
 	Examples
-	  $ library-coverage src/**.js -l ramda
+	  $ library-coverage src/**.js -l ramda -p flow
 `,
   {
     flags: {
@@ -25,17 +21,17 @@ const cli = meow(
         type: 'string',
         alias: 'l',
       },
+      parser: {
+        type: 'string',
+        alias: 'p',
+      },
     },
   }
 );
 
 checkErrors(cli);
 
-const available = pipe(
-  ({ input }) => findModules({ cwd: input[0], relative: false }),
-  x => path.resolve(x[0], cli.flags.library),
-  x => keys(require(x))
-)(cli);
+const available = getAvailableFns(cli);
 
 const used = getUsedFns(cli);
 
