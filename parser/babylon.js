@@ -25,6 +25,6 @@ const options = {
   ],
 };
 
-exports.parse = function parse(code) {
-  return babylon.parse(code, options);
-};
+const parse = code => babylon.parse(code, options);
+
+exports.parse = parse;

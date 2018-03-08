@@ -2,6 +2,7 @@
 
 const flowParser = require('flow-parser');
 
+/* eslint-disable camelcase */
 const options = {
   esproposal_class_instance_fields: true,
   esproposal_class_static_fields: true,
@@ -9,7 +10,8 @@ const options = {
   esproposal_export_star_as: true,
   types: true,
 };
+/* eslint-enable camelcase */
 
-exports.parse = function parse(code) {
-  return flowParser.parse(code, options);
-};
+const parse = code => flowParser.parse(code, options);
+
+exports.parse = parse;
