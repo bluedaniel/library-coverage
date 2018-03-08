@@ -10,10 +10,12 @@ const cli = meow(
 	  $ library-coverage <input>
 
 	Options
-    --library, -l  Choose which library to evaluate
+    --library, -l  Library to evaluate
+    --parser, -p  Parser to use (babel|babylon|flow) default: babel
 
 	Examples
-	  $ library-coverage src/**.js -l ramda -p flow
+    $ library-coverage src/**/*.js -l ramda -p flow
+    $ library-coverage src/**/*.spec.js -l redux-sagas
 `,
   {
     flags: {

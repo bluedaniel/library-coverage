@@ -11,23 +11,23 @@ This can be useful to find unused functions or methods that might better fit you
 ## Install
 
 ```
-$ npm install --global library-coverage
+$ npm install library-coverage --global
 ```
 
 ## Usage
 
 ```
 $ library-coverage --help
-
   Usage
-    $ library-coverage <input> -l ramda
-  
-  Options
-    --library, -l  Choose which library to evaluate
-  
-  Examples
-    $ library-coverage src/**.js -l ramda
-    $ library-coverage src/**.js -l redux-sagas
+	  $ library-coverage <input>
+
+	Options
+    --library, -l  Library to evaluate
+    --parser, -p  Parser to use (babel|babylon|flow) default: babel
+
+	Examples
+	  $ library-coverage src/**/*.js -l ramda -p flow
+    $ library-coverage src/**/*.spec.js -l redux-sagas
 ```
 
 ## License
