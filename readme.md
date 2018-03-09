@@ -1,6 +1,6 @@
 # Library Coverage
 
-[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
+[![Build Status](https://travis-ci.org/bluedaniel/library-coverage.svg?branch=master)](https://travis-ci.org/bluedaniel/library-coverage) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
 
 This tool shows how many exports you are using within your codebase for a particular library or module.
 
