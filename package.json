@@ -4,7 +4,7 @@
   "description": "Check usage of a library",
   "main": "cli.js",
   "scripts": {
-    "test": "xo"
+    "test": "xo & jest"
   },
   "bin": "cli.js",
   "engines": {
@@ -27,6 +27,10 @@
     "bracketSpacing": true
   },
   "xo": {
+    "envs": [
+      "node",
+      "jest"
+    ],
     "prettier": true
   },
   "dependencies": {
@@ -35,6 +39,8 @@
     "find-node-modules": "^1.0.4",
     "flow-parser": "^0.67.0",
     "glob": "^7.1.2",
+    "jest": "^22.4.2",
+    "lodash": "^4.17.5",
     "log-symbols": "^2.2.0",
     "meow": "^4.0.0",
     "prettier": "^1.11.1",
