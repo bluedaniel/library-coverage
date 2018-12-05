@@ -12187,12 +12187,12 @@ Array [
               "line": 6,
             },
           },
-          "optional": false,
           "range": Array [
             108,
             117,
           ],
           "type": "CallExpression",
+          "typeArguments": null,
         },
         "loc": Object {
           "end": Object {
@@ -13575,12 +13575,12 @@ Array [
               "line": 7,
             },
           },
-          "optional": false,
           "range": Array [
             146,
             171,
           ],
           "type": "CallExpression",
+          "typeArguments": null,
         },
         "loc": Object {
           "end": Object {
@@ -14502,7 +14502,6 @@ Array [
               "type": "Identifier",
               "typeAnnotation": null,
             },
-            "optional": false,
             "property": Object {
               "loc": Object {
                 "end": Object {
@@ -14733,12 +14732,12 @@ Array [
               "line": 8,
             },
           },
-          "optional": false,
           "range": Array [
             193,
             209,
           ],
           "type": "CallExpression",
+          "typeArguments": null,
         },
         "loc": Object {
           "end": Object {
@@ -15549,6 +15548,8 @@ Array [
                   "variance": null,
                 },
               ],
+              "inexact": false,
+              "internalSlots": Array [],
               "loc": Object {
                 "end": Object {
                   "column": 31,
@@ -17174,12 +17175,12 @@ Array [
               "line": 10,
             },
           },
-          "optional": false,
           "range": Array [
             246,
             286,
           ],
           "type": "CallExpression",
+          "typeArguments": null,
         },
         "loc": Object {
           "end": Object {
@@ -19961,7 +19962,6 @@ Array [
               "type": "Identifier",
               "typeAnnotation": null,
             },
-            "optional": false,
             "property": Object {
               "loc": Object {
                 "end": Object {
@@ -20192,12 +20192,12 @@ Array [
               "line": 11,
             },
           },
-          "optional": false,
           "range": Array [
             333,
             370,
           ],
           "type": "CallExpression",
+          "typeArguments": null,
         },
         "loc": Object {
           "end": Object {
