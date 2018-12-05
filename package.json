@@ -44,7 +44,7 @@
     "lodash": "^4.17.5",
     "log-symbols": "^2.2.0",
     "meow": "^4.0.0",
-    "prettier": "^1.11.1",
+    "prettier": "^1.15.3",
     "ramda": "^0.26.1",
     "recast": "^0.14.4"
   },
