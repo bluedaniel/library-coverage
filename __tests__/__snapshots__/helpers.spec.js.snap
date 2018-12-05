@@ -4,6 +4,7 @@ exports[`Babel code Source to AST 1`] = `
 Array [
   Node {
     "end": 39,
+    "importKind": "value",
     "loc": SourceLocation {
       "end": Position {
         "column": 38,
@@ -119,6 +120,10 @@ Array [
     },
     "source": Node {
       "end": 38,
+      "extra": Object {
+        "raw": "'ramda'",
+        "rawValue": "ramda",
+      },
       "loc": SourceLocation {
         "end": Position {
           "column": 37,
@@ -232,9 +237,8 @@ Array [
           "line": 2,
         },
       },
-      "raw": "'ramda'",
       "start": 31,
-      "type": "Literal",
+      "type": "StringLiteral",
       "value": "ramda",
     },
     "specifiers": Array [
@@ -478,6 +482,7 @@ Array [
       },
       Node {
         "end": 16,
+        "importKind": null,
         "imported": Node {
           "end": 16,
           "loc": SourceLocation {
@@ -837,6 +842,7 @@ Array [
       },
       Node {
         "end": 23,
+        "importKind": null,
         "imported": Node {
           "end": 23,
           "loc": SourceLocation {
@@ -1200,6 +1206,7 @@ Array [
   },
   Node {
     "end": 77,
+    "importKind": "value",
     "loc": SourceLocation {
       "end": Position {
         "column": 37,
@@ -1315,6 +1322,10 @@ Array [
     },
     "source": Node {
       "end": 76,
+      "extra": Object {
+        "raw": "'lodash'",
+        "rawValue": "lodash",
+      },
       "loc": SourceLocation {
         "end": Position {
           "column": 36,
@@ -1428,9 +1439,8 @@ Array [
           "line": 3,
         },
       },
-      "raw": "'lodash'",
       "start": 68,
-      "type": "Literal",
+      "type": "StringLiteral",
       "value": "lodash",
     },
     "specifiers": Array [
@@ -1674,6 +1684,7 @@ Array [
       },
       Node {
         "end": 60,
+        "importKind": null,
         "imported": Node {
           "end": 60,
           "loc": SourceLocation {
@@ -2163,6 +2174,10 @@ Array [
           "arguments": Array [
             Node {
               "end": 96,
+              "extra": Object {
+                "raw": "2",
+                "rawValue": 2,
+              },
               "loc": SourceLocation {
                 "end": Position {
                   "column": 17,
@@ -2276,13 +2291,16 @@ Array [
                   "line": 5,
                 },
               },
-              "raw": "2",
               "start": 95,
-              "type": "Literal",
+              "type": "NumericLiteral",
               "value": 2,
             },
             Node {
               "end": 99,
+              "extra": Object {
+                "raw": "3",
+                "rawValue": 3,
+              },
               "loc": SourceLocation {
                 "end": Position {
                   "column": 20,
@@ -2396,9 +2414,8 @@ Array [
                   "line": 5,
                 },
               },
-              "raw": "3",
               "start": 98,
-              "type": "Literal",
+              "type": "NumericLiteral",
               "value": 3,
             },
           ],
@@ -3002,6 +3019,10 @@ Array [
           "arguments": Array [
             Node {
               "end": 123,
+              "extra": Object {
+                "raw": "'.'",
+                "rawValue": ".",
+              },
               "loc": SourceLocation {
                 "end": Position {
                   "column": 21,
@@ -3115,13 +3136,16 @@ Array [
                   "line": 6,
                 },
               },
-              "raw": "'.'",
               "start": 120,
-              "type": "Literal",
+              "type": "StringLiteral",
               "value": ".",
             },
             Node {
               "end": 138,
+              "extra": Object {
+                "raw": "'a.b.c.xyz.d'",
+                "rawValue": "a.b.c.xyz.d",
+              },
               "loc": SourceLocation {
                 "end": Position {
                   "column": 36,
@@ -3235,9 +3259,8 @@ Array [
                   "line": 6,
                 },
               },
-              "raw": "'a.b.c.xyz.d'",
               "start": 125,
-              "type": "Literal",
+              "type": "StringLiteral",
               "value": "a.b.c.xyz.d",
             },
           ],
@@ -3841,6 +3864,10 @@ Array [
           "arguments": Array [
             Node {
               "end": 168,
+              "extra": Object {
+                "raw": "'XYZ'",
+                "rawValue": "XYZ",
+              },
               "loc": SourceLocation {
                 "end": Position {
                   "column": 27,
@@ -3954,9 +3981,8 @@ Array [
                   "line": 7,
                 },
               },
-              "raw": "'XYZ'",
               "start": 163,
-              "type": "Literal",
+              "type": "StringLiteral",
               "value": "XYZ",
             },
           ],
@@ -4918,6 +4944,10 @@ Array [
                   "end": 201,
                   "key": Node {
                     "end": 198,
+                    "extra": Object {
+                      "raw": "'a'",
+                      "rawValue": "a",
+                    },
                     "loc": SourceLocation {
                       "end": Position {
                         "column": 26,
@@ -5031,12 +5061,10 @@ Array [
                         "line": 9,
                       },
                     },
-                    "raw": "'a'",
                     "start": 195,
-                    "type": "Literal",
+                    "type": "StringLiteral",
                     "value": "a",
                   },
-                  "kind": "init",
                   "loc": SourceLocation {
                     "end": Position {
                       "column": 29,
@@ -5153,9 +5181,13 @@ Array [
                   "method": false,
                   "shorthand": false,
                   "start": 195,
-                  "type": "Property",
+                  "type": "ObjectProperty",
                   "value": Node {
                     "end": 201,
+                    "extra": Object {
+                      "raw": "1",
+                      "rawValue": 1,
+                    },
                     "loc": SourceLocation {
                       "end": Position {
                         "column": 29,
@@ -5269,9 +5301,8 @@ Array [
                         "line": 9,
                       },
                     },
-                    "raw": "1",
                     "start": 200,
-                    "type": "Literal",
+                    "type": "NumericLiteral",
                     "value": 1,
                   },
                 },
@@ -5400,6 +5431,10 @@ Array [
                   "end": 213,
                   "key": Node {
                     "end": 210,
+                    "extra": Object {
+                      "raw": "'a'",
+                      "rawValue": "a",
+                    },
                     "loc": SourceLocation {
                       "end": Position {
                         "column": 38,
@@ -5513,12 +5548,10 @@ Array [
                         "line": 9,
                       },
                     },
-                    "raw": "'a'",
                     "start": 207,
-                    "type": "Literal",
+                    "type": "StringLiteral",
                     "value": "a",
                   },
-                  "kind": "init",
                   "loc": SourceLocation {
                     "end": Position {
                       "column": 41,
@@ -5635,9 +5668,13 @@ Array [
                   "method": false,
                   "shorthand": false,
                   "start": 207,
-                  "type": "Property",
+                  "type": "ObjectProperty",
                   "value": Node {
                     "end": 213,
+                    "extra": Object {
+                      "raw": "3",
+                      "rawValue": 3,
+                    },
                     "loc": SourceLocation {
                       "end": Position {
                         "column": 41,
@@ -5751,9 +5788,8 @@ Array [
                         "line": 9,
                       },
                     },
-                    "raw": "3",
                     "start": 212,
-                    "type": "Literal",
+                    "type": "NumericLiteral",
                     "value": 3,
                   },
                 },
@@ -5762,6 +5798,10 @@ Array [
                   "end": 221,
                   "key": Node {
                     "end": 218,
+                    "extra": Object {
+                      "raw": "'b'",
+                      "rawValue": "b",
+                    },
                     "loc": SourceLocation {
                       "end": Position {
                         "column": 46,
@@ -5875,12 +5915,10 @@ Array [
                         "line": 9,
                       },
                     },
-                    "raw": "'b'",
                     "start": 215,
-                    "type": "Literal",
+                    "type": "StringLiteral",
                     "value": "b",
                   },
-                  "kind": "init",
                   "loc": SourceLocation {
                     "end": Position {
                       "column": 49,
@@ -5997,9 +6035,13 @@ Array [
                   "method": false,
                   "shorthand": false,
                   "start": 215,
-                  "type": "Property",
+                  "type": "ObjectProperty",
                   "value": Node {
                     "end": 221,
+                    "extra": Object {
+                      "raw": "2",
+                      "rawValue": 2,
+                    },
                     "loc": SourceLocation {
                       "end": Position {
                         "column": 49,
@@ -6113,9 +6155,8 @@ Array [
                         "line": 9,
                       },
                     },
-                    "raw": "2",
                     "start": 220,
-                    "type": "Literal",
+                    "type": "NumericLiteral",
                     "value": 2,
                   },
                 },
@@ -7094,6 +7135,10 @@ Array [
               "elements": Array [
                 Node {
                   "end": 279,
+                  "extra": Object {
+                    "raw": "1",
+                    "rawValue": 1,
+                  },
                   "loc": SourceLocation {
                     "end": Position {
                       "column": 29,
@@ -7207,13 +7252,16 @@ Array [
                       "line": 11,
                     },
                   },
-                  "raw": "1",
                   "start": 278,
-                  "type": "Literal",
+                  "type": "NumericLiteral",
                   "value": 1,
                 },
                 Node {
                   "end": 282,
+                  "extra": Object {
+                    "raw": "2",
+                    "rawValue": 2,
+                  },
                   "loc": SourceLocation {
                     "end": Position {
                       "column": 32,
@@ -7327,13 +7375,16 @@ Array [
                       "line": 11,
                     },
                   },
-                  "raw": "2",
                   "start": 281,
-                  "type": "Literal",
+                  "type": "NumericLiteral",
                   "value": 2,
                 },
                 Node {
                   "end": 285,
+                  "extra": Object {
+                    "raw": "3",
+                    "rawValue": 3,
+                  },
                   "loc": SourceLocation {
                     "end": Position {
                       "column": 35,
@@ -7447,13 +7498,16 @@ Array [
                       "line": 11,
                     },
                   },
-                  "raw": "3",
                   "start": 284,
-                  "type": "Literal",
+                  "type": "NumericLiteral",
                   "value": 3,
                 },
                 Node {
                   "end": 288,
+                  "extra": Object {
+                    "raw": "4",
+                    "rawValue": 4,
+                  },
                   "loc": SourceLocation {
                     "end": Position {
                       "column": 38,
@@ -7567,9 +7621,8 @@ Array [
                       "line": 11,
                     },
                   },
-                  "raw": "4",
                   "start": 287,
-                  "type": "Literal",
+                  "type": "NumericLiteral",
                   "value": 4,
                 },
               ],
@@ -7930,6 +7983,10 @@ Array [
                 "operator": "%",
                 "right": Node {
                   "end": 301,
+                  "extra": Object {
+                    "raw": "2",
+                    "rawValue": 2,
+                  },
                   "loc": SourceLocation {
                     "end": Position {
                       "column": 51,
@@ -8043,9 +8100,8 @@ Array [
                       "line": 11,
                     },
                   },
-                  "raw": "2",
                   "start": 300,
-                  "type": "Literal",
+                  "type": "NumericLiteral",
                   "value": 2,
                 },
                 "start": 296,
@@ -9287,12 +9343,13 @@ exports[`Babel code displayOutput 2`] = `
 
 exports[`Flow code Source to AST 1`] = `
 Array [
-  Object {
+  Node {
     "comments": Array [
       Object {
+        "end": 9,
         "leading": true,
-        "loc": Object {
-          "end": Object {
+        "loc": SourceLocation {
+          "end": Position {
             "column": 8,
             "line": 2,
           },
@@ -9392,24 +9449,137 @@ Array [
               "name": null,
             },
           },
-          "source": null,
-          "start": Object {
+          "start": Position {
             "column": 0,
             "line": 2,
           },
         },
-        "range": Array [
-          1,
-          9,
-        ],
+        "start": 1,
         "trailing": false,
-        "type": "Line",
+        "type": "CommentLine",
         "value": " @flow",
       },
     ],
+    "end": 48,
     "importKind": "value",
-    "loc": Object {
-      "end": Object {
+    "leadingComments": Array [
+      Object {
+        "end": 9,
+        "leading": true,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 8,
+            "line": 2,
+          },
+          "indent": 0,
+          "lines": Lines {
+            "length": 12,
+            "name": null,
+            Symbol(recastLinesSecret): Object {
+              "cachedSourceMap": null,
+              "infos": Array [
+                Object {
+                  "indent": 0,
+                  "line": "",
+                  "locked": false,
+                  "sliceEnd": 0,
+                  "sliceStart": 0,
+                },
+                Object {
+                  "indent": 0,
+                  "line": "// @flow",
+                  "locked": false,
+                  "sliceEnd": 8,
+                  "sliceStart": 0,
+                },
+                Object {
+                  "indent": 0,
+                  "line": "import R, { add, split } from 'ramda';",
+                  "locked": false,
+                  "sliceEnd": 38,
+                  "sliceStart": 0,
+                },
+                Object {
+                  "indent": 0,
+                  "line": "import _, { defaults } from 'lodash';",
+                  "locked": false,
+                  "sliceEnd": 37,
+                  "sliceStart": 0,
+                },
+                Object {
+                  "indent": 0,
+                  "line": "",
+                  "locked": false,
+                  "sliceEnd": 0,
+                  "sliceStart": 0,
+                },
+                Object {
+                  "indent": 0,
+                  "line": "const num: number = add(2, 3);",
+                  "locked": false,
+                  "sliceEnd": 30,
+                  "sliceStart": 0,
+                },
+                Object {
+                  "indent": 0,
+                  "line": "const arr: Array<string> = split('.', 'a.b.c.xyz.d');",
+                  "locked": false,
+                  "sliceEnd": 53,
+                  "sliceStart": 0,
+                },
+                Object {
+                  "indent": 0,
+                  "line": "const str: string = R.toLower('XYZ');",
+                  "locked": false,
+                  "sliceEnd": 37,
+                  "sliceStart": 0,
+                },
+                Object {
+                  "indent": 0,
+                  "line": "",
+                  "locked": false,
+                  "sliceEnd": 0,
+                  "sliceStart": 0,
+                },
+                Object {
+                  "indent": 0,
+                  "line": "const obj: { [string]: number } = defaults({ 'a': 1 }, { 'a': 3, 'b': 2 });",
+                  "locked": false,
+                  "sliceEnd": 75,
+                  "sliceStart": 0,
+                },
+                Object {
+                  "indent": 0,
+                  "line": "const arrArr: Array<Array<number, number>> = _.partition([1, 2, 3, 4], n => n % 2);",
+                  "locked": false,
+                  "sliceEnd": 83,
+                  "sliceStart": 0,
+                },
+                Object {
+                  "indent": 0,
+                  "line": "",
+                  "locked": false,
+                  "sliceEnd": 0,
+                  "sliceStart": 0,
+                },
+              ],
+              "mappings": Array [],
+              "name": null,
+            },
+          },
+          "start": Position {
+            "column": 0,
+            "line": 2,
+          },
+        },
+        "start": 1,
+        "trailing": false,
+        "type": "CommentLine",
+        "value": " @flow",
+      },
+    ],
+    "loc": SourceLocation {
+      "end": Position {
         "column": 38,
         "line": 3,
       },
@@ -9509,19 +9679,19 @@ Array [
           "name": null,
         },
       },
-      "source": null,
-      "start": Object {
+      "start": Position {
         "column": 0,
         "line": 3,
       },
     },
-    "range": Array [
-      10,
-      48,
-    ],
-    "source": Object {
-      "loc": Object {
-        "end": Object {
+    "source": Node {
+      "end": 47,
+      "extra": Object {
+        "raw": "'ramda'",
+        "rawValue": "ramda",
+      },
+      "loc": SourceLocation {
+        "end": Position {
           "column": 37,
           "line": 3,
         },
@@ -9621,24 +9791,21 @@ Array [
             "name": null,
           },
         },
-        "source": null,
-        "start": Object {
+        "start": Position {
           "column": 30,
           "line": 3,
         },
       },
-      "range": Array [
-        40,
-        47,
-      ],
-      "raw": "'ramda'",
-      "type": "Literal",
+      "start": 40,
+      "type": "StringLiteral",
       "value": "ramda",
     },
     "specifiers": Array [
-      Object {
-        "loc": Object {
-          "end": Object {
+      Node {
+        "end": 18,
+        "leadingComments": null,
+        "loc": SourceLocation {
+          "end": Position {
             "column": 8,
             "line": 3,
           },
@@ -9738,18 +9905,20 @@ Array [
               "name": null,
             },
           },
-          "source": null,
-          "start": Object {
+          "start": Position {
             "column": 7,
             "line": 3,
           },
         },
-        "local": Object {
-          "loc": Object {
-            "end": Object {
+        "local": Node {
+          "end": 18,
+          "leadingComments": null,
+          "loc": SourceLocation {
+            "end": Position {
               "column": 8,
               "line": 3,
             },
+            "identifierName": "R",
             "indent": 0,
             "lines": Lines {
               "length": 12,
@@ -9846,35 +10015,29 @@ Array [
                 "name": null,
               },
             },
-            "source": null,
-            "start": Object {
+            "start": Position {
               "column": 7,
               "line": 3,
             },
           },
           "name": "R",
-          "optional": false,
-          "range": Array [
-            17,
-            18,
-          ],
+          "start": 17,
           "type": "Identifier",
-          "typeAnnotation": null,
         },
-        "range": Array [
-          17,
-          18,
-        ],
+        "start": 17,
         "type": "ImportDefaultSpecifier",
       },
-      Object {
+      Node {
+        "end": 25,
         "importKind": null,
-        "imported": Object {
-          "loc": Object {
-            "end": Object {
+        "imported": Node {
+          "end": 25,
+          "loc": SourceLocation {
+            "end": Position {
               "column": 15,
               "line": 3,
             },
+            "identifierName": "add",
             "indent": 0,
             "lines": Lines {
               "length": 12,
@@ -9971,23 +10134,17 @@ Array [
                 "name": null,
               },
             },
-            "source": null,
-            "start": Object {
+            "start": Position {
               "column": 12,
               "line": 3,
             },
           },
           "name": "add",
-          "optional": false,
-          "range": Array [
-            22,
-            25,
-          ],
+          "start": 22,
           "type": "Identifier",
-          "typeAnnotation": null,
         },
-        "loc": Object {
-          "end": Object {
+        "loc": SourceLocation {
+          "end": Position {
             "column": 15,
             "line": 3,
           },
@@ -10087,18 +10244,20 @@ Array [
               "name": null,
             },
           },
-          "source": null,
-          "start": Object {
+          "start": Position {
             "column": 12,
             "line": 3,
           },
         },
-        "local": Object {
-          "loc": Object {
-            "end": Object {
+        "local": Node {
+          "__clone": [Function],
+          "end": 25,
+          "loc": SourceLocation {
+            "end": Position {
               "column": 15,
               "line": 3,
             },
+            "identifierName": "add",
             "indent": 0,
             "lines": Lines {
               "length": 12,
@@ -10195,35 +10354,29 @@ Array [
                 "name": null,
               },
             },
-            "source": null,
-            "start": Object {
+            "start": Position {
               "column": 12,
               "line": 3,
             },
           },
           "name": "add",
-          "optional": false,
-          "range": Array [
-            22,
-            25,
-          ],
+          "start": 22,
           "type": "Identifier",
-          "typeAnnotation": null,
         },
-        "range": Array [
-          22,
-          25,
-        ],
+        "start": 22,
         "type": "ImportSpecifier",
       },
-      Object {
+      Node {
+        "end": 32,
         "importKind": null,
-        "imported": Object {
-          "loc": Object {
-            "end": Object {
+        "imported": Node {
+          "end": 32,
+          "loc": SourceLocation {
+            "end": Position {
               "column": 22,
               "line": 3,
             },
+            "identifierName": "split",
             "indent": 0,
             "lines": Lines {
               "length": 12,
@@ -10320,23 +10473,17 @@ Array [
                 "name": null,
               },
             },
-            "source": null,
-            "start": Object {
+            "start": Position {
               "column": 17,
               "line": 3,
             },
           },
           "name": "split",
-          "optional": false,
-          "range": Array [
-            27,
-            32,
-          ],
+          "start": 27,
           "type": "Identifier",
-          "typeAnnotation": null,
         },
-        "loc": Object {
-          "end": Object {
+        "loc": SourceLocation {
+          "end": Position {
             "column": 22,
             "line": 3,
           },
@@ -10436,18 +10583,20 @@ Array [
               "name": null,
             },
           },
-          "source": null,
-          "start": Object {
+          "start": Position {
             "column": 17,
             "line": 3,
           },
         },
-        "local": Object {
-          "loc": Object {
-            "end": Object {
+        "local": Node {
+          "__clone": [Function],
+          "end": 32,
+          "loc": SourceLocation {
+            "end": Position {
               "column": 22,
               "line": 3,
             },
+            "identifierName": "split",
             "indent": 0,
             "lines": Lines {
               "length": 12,
@@ -10544,34 +10693,27 @@ Array [
                 "name": null,
               },
             },
-            "source": null,
-            "start": Object {
+            "start": Position {
               "column": 17,
               "line": 3,
             },
           },
           "name": "split",
-          "optional": false,
-          "range": Array [
-            27,
-            32,
-          ],
+          "start": 27,
           "type": "Identifier",
-          "typeAnnotation": null,
         },
-        "range": Array [
-          27,
-          32,
-        ],
+        "start": 27,
         "type": "ImportSpecifier",
       },
     ],
+    "start": 10,
     "type": "ImportDeclaration",
   },
-  Object {
+  Node {
+    "end": 86,
     "importKind": "value",
-    "loc": Object {
-      "end": Object {
+    "loc": SourceLocation {
+      "end": Position {
         "column": 37,
         "line": 4,
       },
@@ -10671,19 +10813,19 @@ Array [
           "name": null,
         },
       },
-      "source": null,
-      "start": Object {
+      "start": Position {
         "column": 0,
         "line": 4,
       },
     },
-    "range": Array [
-      49,
-      86,
-    ],
-    "source": Object {
-      "loc": Object {
-        "end": Object {
+    "source": Node {
+      "end": 85,
+      "extra": Object {
+        "raw": "'lodash'",
+        "rawValue": "lodash",
+      },
+      "loc": SourceLocation {
+        "end": Position {
           "column": 36,
           "line": 4,
         },
@@ -10783,24 +10925,20 @@ Array [
             "name": null,
           },
         },
-        "source": null,
-        "start": Object {
+        "start": Position {
           "column": 28,
           "line": 4,
         },
       },
-      "range": Array [
-        77,
-        85,
-      ],
-      "raw": "'lodash'",
-      "type": "Literal",
+      "start": 77,
+      "type": "StringLiteral",
       "value": "lodash",
     },
     "specifiers": Array [
-      Object {
-        "loc": Object {
-          "end": Object {
+      Node {
+        "end": 57,
+        "loc": SourceLocation {
+          "end": Position {
             "column": 8,
             "line": 4,
           },
@@ -10900,18 +11038,19 @@ Array [
               "name": null,
             },
           },
-          "source": null,
-          "start": Object {
+          "start": Position {
             "column": 7,
             "line": 4,
           },
         },
-        "local": Object {
-          "loc": Object {
-            "end": Object {
+        "local": Node {
+          "end": 57,
+          "loc": SourceLocation {
+            "end": Position {
               "column": 8,
               "line": 4,
             },
+            "identifierName": "_",
             "indent": 0,
             "lines": Lines {
               "length": 12,
@@ -11008,35 +11147,29 @@ Array [
                 "name": null,
               },
             },
-            "source": null,
-            "start": Object {
+            "start": Position {
               "column": 7,
               "line": 4,
             },
           },
           "name": "_",
-          "optional": false,
-          "range": Array [
-            56,
-            57,
-          ],
+          "start": 56,
           "type": "Identifier",
-          "typeAnnotation": null,
         },
-        "range": Array [
-          56,
-          57,
-        ],
+        "start": 56,
         "type": "ImportDefaultSpecifier",
       },
-      Object {
+      Node {
+        "end": 69,
         "importKind": null,
-        "imported": Object {
-          "loc": Object {
-            "end": Object {
+        "imported": Node {
+          "end": 69,
+          "loc": SourceLocation {
+            "end": Position {
               "column": 20,
               "line": 4,
             },
+            "identifierName": "defaults",
             "indent": 0,
             "lines": Lines {
               "length": 12,
@@ -11133,23 +11266,17 @@ Array [
                 "name": null,
               },
             },
-            "source": null,
-            "start": Object {
+            "start": Position {
               "column": 12,
               "line": 4,
             },
           },
           "name": "defaults",
-          "optional": false,
-          "range": Array [
-            61,
-            69,
-          ],
+          "start": 61,
           "type": "Identifier",
-          "typeAnnotation": null,
         },
-        "loc": Object {
-          "end": Object {
+        "loc": SourceLocation {
+          "end": Position {
             "column": 20,
             "line": 4,
           },
@@ -11249,18 +11376,20 @@ Array [
               "name": null,
             },
           },
-          "source": null,
-          "start": Object {
+          "start": Position {
             "column": 12,
             "line": 4,
           },
         },
-        "local": Object {
-          "loc": Object {
-            "end": Object {
+        "local": Node {
+          "__clone": [Function],
+          "end": 69,
+          "loc": SourceLocation {
+            "end": Position {
               "column": 20,
               "line": 4,
             },
+            "identifierName": "defaults",
             "indent": 0,
             "lines": Lines {
               "length": 12,
@@ -11357,39 +11486,34 @@ Array [
                 "name": null,
               },
             },
-            "source": null,
-            "start": Object {
+            "start": Position {
               "column": 12,
               "line": 4,
             },
           },
           "name": "defaults",
-          "optional": false,
-          "range": Array [
-            61,
-            69,
-          ],
+          "start": 61,
           "type": "Identifier",
-          "typeAnnotation": null,
         },
-        "range": Array [
-          61,
-          69,
-        ],
+        "start": 61,
         "type": "ImportSpecifier",
       },
     ],
+    "start": 49,
     "type": "ImportDeclaration",
   },
-  Object {
+  Node {
     "declarations": Array [
-      Object {
-        "id": Object {
-          "loc": Object {
-            "end": Object {
+      Node {
+        "end": 117,
+        "id": Node {
+          "end": 105,
+          "loc": SourceLocation {
+            "end": Position {
               "column": 17,
               "line": 6,
             },
+            "identifierName": "num",
             "indent": 0,
             "lines": Lines {
               "length": 12,
@@ -11486,22 +11610,18 @@ Array [
                 "name": null,
               },
             },
-            "source": null,
-            "start": Object {
+            "start": Position {
               "column": 6,
               "line": 6,
             },
           },
           "name": "num",
-          "optional": false,
-          "range": Array [
-            94,
-            105,
-          ],
+          "start": 94,
           "type": "Identifier",
-          "typeAnnotation": Object {
-            "loc": Object {
-              "end": Object {
+          "typeAnnotation": Node {
+            "end": 105,
+            "loc": SourceLocation {
+              "end": Position {
                 "column": 17,
                 "line": 6,
               },
@@ -11601,20 +11721,17 @@ Array [
                   "name": null,
                 },
               },
-              "source": null,
-              "start": Object {
+              "start": Position {
                 "column": 9,
                 "line": 6,
               },
             },
-            "range": Array [
-              97,
-              105,
-            ],
+            "start": 97,
             "type": "TypeAnnotation",
-            "typeAnnotation": Object {
-              "loc": Object {
-                "end": Object {
+            "typeAnnotation": Node {
+              "end": 105,
+              "loc": SourceLocation {
+                "end": Position {
                   "column": 17,
                   "line": 6,
                 },
@@ -11714,25 +11831,26 @@ Array [
                     "name": null,
                   },
                 },
-                "source": null,
-                "start": Object {
+                "start": Position {
                   "column": 11,
                   "line": 6,
                 },
               },
-              "range": Array [
-                99,
-                105,
-              ],
+              "start": 99,
               "type": "NumberTypeAnnotation",
             },
           },
         },
-        "init": Object {
+        "init": Node {
           "arguments": Array [
-            Object {
-              "loc": Object {
-                "end": Object {
+            Node {
+              "end": 113,
+              "extra": Object {
+                "raw": "2",
+                "rawValue": 2,
+              },
+              "loc": SourceLocation {
+                "end": Position {
                   "column": 25,
                   "line": 6,
                 },
@@ -11832,23 +11950,23 @@ Array [
                     "name": null,
                   },
                 },
-                "source": null,
-                "start": Object {
+                "start": Position {
                   "column": 24,
                   "line": 6,
                 },
               },
-              "range": Array [
-                112,
-                113,
-              ],
-              "raw": "2",
-              "type": "Literal",
+              "start": 112,
+              "type": "NumericLiteral",
               "value": 2,
             },
-            Object {
-              "loc": Object {
-                "end": Object {
+            Node {
+              "end": 116,
+              "extra": Object {
+                "raw": "3",
+                "rawValue": 3,
+              },
+              "loc": SourceLocation {
+                "end": Position {
                   "column": 28,
                   "line": 6,
                 },
@@ -11948,27 +12066,24 @@ Array [
                     "name": null,
                   },
                 },
-                "source": null,
-                "start": Object {
+                "start": Position {
                   "column": 27,
                   "line": 6,
                 },
               },
-              "range": Array [
-                115,
-                116,
-              ],
-              "raw": "3",
-              "type": "Literal",
+              "start": 115,
+              "type": "NumericLiteral",
               "value": 3,
             },
           ],
-          "callee": Object {
-            "loc": Object {
-              "end": Object {
+          "callee": Node {
+            "end": 111,
+            "loc": SourceLocation {
+              "end": Position {
                 "column": 23,
                 "line": 6,
               },
+              "identifierName": "add",
               "indent": 0,
               "lines": Lines {
                 "length": 12,
@@ -12065,23 +12180,18 @@ Array [
                   "name": null,
                 },
               },
-              "source": null,
-              "start": Object {
+              "start": Position {
                 "column": 20,
                 "line": 6,
               },
             },
             "name": "add",
-            "optional": false,
-            "range": Array [
-              108,
-              111,
-            ],
+            "start": 108,
             "type": "Identifier",
-            "typeAnnotation": null,
           },
-          "loc": Object {
-            "end": Object {
+          "end": 117,
+          "loc": SourceLocation {
+            "end": Position {
               "column": 29,
               "line": 6,
             },
@@ -12181,21 +12291,16 @@ Array [
                 "name": null,
               },
             },
-            "source": null,
-            "start": Object {
+            "start": Position {
               "column": 20,
               "line": 6,
             },
           },
-          "range": Array [
-            108,
-            117,
-          ],
+          "start": 108,
           "type": "CallExpression",
-          "typeArguments": null,
         },
-        "loc": Object {
-          "end": Object {
+        "loc": SourceLocation {
+          "end": Position {
             "column": 29,
             "line": 6,
           },
@@ -12295,22 +12400,19 @@ Array [
               "name": null,
             },
           },
-          "source": null,
-          "start": Object {
+          "start": Position {
             "column": 6,
             "line": 6,
           },
         },
-        "range": Array [
-          94,
-          117,
-        ],
+        "start": 94,
         "type": "VariableDeclarator",
       },
     ],
+    "end": 118,
     "kind": "const",
-    "loc": Object {
-      "end": Object {
+    "loc": SourceLocation {
+      "end": Position {
         "column": 30,
         "line": 6,
       },
@@ -12410,27 +12512,26 @@ Array [
           "name": null,
         },
       },
-      "source": null,
-      "start": Object {
+      "start": Position {
         "column": 0,
         "line": 6,
       },
     },
-    "range": Array [
-      88,
-      118,
-    ],
+    "start": 88,
     "type": "VariableDeclaration",
   },
-  Object {
+  Node {
     "declarations": Array [
-      Object {
-        "id": Object {
-          "loc": Object {
-            "end": Object {
+      Node {
+        "end": 171,
+        "id": Node {
+          "end": 143,
+          "loc": SourceLocation {
+            "end": Position {
               "column": 24,
               "line": 7,
             },
+            "identifierName": "arr",
             "indent": 0,
             "lines": Lines {
               "length": 12,
@@ -12527,22 +12628,18 @@ Array [
                 "name": null,
               },
             },
-            "source": null,
-            "start": Object {
+            "start": Position {
               "column": 6,
               "line": 7,
             },
           },
           "name": "arr",
-          "optional": false,
-          "range": Array [
-            125,
-            143,
-          ],
+          "start": 125,
           "type": "Identifier",
-          "typeAnnotation": Object {
-            "loc": Object {
-              "end": Object {
+          "typeAnnotation": Node {
+            "end": 143,
+            "loc": SourceLocation {
+              "end": Position {
                 "column": 24,
                 "line": 7,
               },
@@ -12642,24 +12739,23 @@ Array [
                   "name": null,
                 },
               },
-              "source": null,
-              "start": Object {
+              "start": Position {
                 "column": 9,
                 "line": 7,
               },
             },
-            "range": Array [
-              128,
-              143,
-            ],
+            "start": 128,
             "type": "TypeAnnotation",
-            "typeAnnotation": Object {
-              "id": Object {
-                "loc": Object {
-                  "end": Object {
+            "typeAnnotation": Node {
+              "end": 143,
+              "id": Node {
+                "end": 135,
+                "loc": SourceLocation {
+                  "end": Position {
                     "column": 16,
                     "line": 7,
                   },
+                  "identifierName": "Array",
                   "indent": 0,
                   "lines": Lines {
                     "length": 12,
@@ -12756,23 +12852,17 @@ Array [
                       "name": null,
                     },
                   },
-                  "source": null,
-                  "start": Object {
+                  "start": Position {
                     "column": 11,
                     "line": 7,
                   },
                 },
                 "name": "Array",
-                "optional": false,
-                "range": Array [
-                  130,
-                  135,
-                ],
+                "start": 130,
                 "type": "Identifier",
-                "typeAnnotation": null,
               },
-              "loc": Object {
-                "end": Object {
+              "loc": SourceLocation {
+                "end": Position {
                   "column": 24,
                   "line": 7,
                 },
@@ -12872,20 +12962,17 @@ Array [
                     "name": null,
                   },
                 },
-                "source": null,
-                "start": Object {
+                "start": Position {
                   "column": 11,
                   "line": 7,
                 },
               },
-              "range": Array [
-                130,
-                143,
-              ],
+              "start": 130,
               "type": "GenericTypeAnnotation",
-              "typeParameters": Object {
-                "loc": Object {
-                  "end": Object {
+              "typeParameters": Node {
+                "end": 143,
+                "loc": SourceLocation {
+                  "end": Position {
                     "column": 24,
                     "line": 7,
                   },
@@ -12985,16 +13072,16 @@ Array [
                       "name": null,
                     },
                   },
-                  "source": null,
-                  "start": Object {
+                  "start": Position {
                     "column": 16,
                     "line": 7,
                   },
                 },
                 "params": Array [
-                  Object {
-                    "loc": Object {
-                      "end": Object {
+                  Node {
+                    "end": 142,
+                    "loc": SourceLocation {
+                      "end": Position {
                         "column": 23,
                         "line": 7,
                       },
@@ -13094,33 +13181,31 @@ Array [
                           "name": null,
                         },
                       },
-                      "source": null,
-                      "start": Object {
+                      "start": Position {
                         "column": 17,
                         "line": 7,
                       },
                     },
-                    "range": Array [
-                      136,
-                      142,
-                    ],
+                    "start": 136,
                     "type": "StringTypeAnnotation",
                   },
                 ],
-                "range": Array [
-                  135,
-                  143,
-                ],
+                "start": 135,
                 "type": "TypeParameterInstantiation",
               },
             },
           },
         },
-        "init": Object {
+        "init": Node {
           "arguments": Array [
-            Object {
-              "loc": Object {
-                "end": Object {
+            Node {
+              "end": 155,
+              "extra": Object {
+                "raw": "'.'",
+                "rawValue": ".",
+              },
+              "loc": SourceLocation {
+                "end": Position {
                   "column": 36,
                   "line": 7,
                 },
@@ -13220,23 +13305,23 @@ Array [
                     "name": null,
                   },
                 },
-                "source": null,
-                "start": Object {
+                "start": Position {
                   "column": 33,
                   "line": 7,
                 },
               },
-              "range": Array [
-                152,
-                155,
-              ],
-              "raw": "'.'",
-              "type": "Literal",
+              "start": 152,
+              "type": "StringLiteral",
               "value": ".",
             },
-            Object {
-              "loc": Object {
-                "end": Object {
+            Node {
+              "end": 170,
+              "extra": Object {
+                "raw": "'a.b.c.xyz.d'",
+                "rawValue": "a.b.c.xyz.d",
+              },
+              "loc": SourceLocation {
+                "end": Position {
                   "column": 51,
                   "line": 7,
                 },
@@ -13336,27 +13421,24 @@ Array [
                     "name": null,
                   },
                 },
-                "source": null,
-                "start": Object {
+                "start": Position {
                   "column": 38,
                   "line": 7,
                 },
               },
-              "range": Array [
-                157,
-                170,
-              ],
-              "raw": "'a.b.c.xyz.d'",
-              "type": "Literal",
+              "start": 157,
+              "type": "StringLiteral",
               "value": "a.b.c.xyz.d",
             },
           ],
-          "callee": Object {
-            "loc": Object {
-              "end": Object {
+          "callee": Node {
+            "end": 151,
+            "loc": SourceLocation {
+              "end": Position {
                 "column": 32,
                 "line": 7,
               },
+              "identifierName": "split",
               "indent": 0,
               "lines": Lines {
                 "length": 12,
@@ -13453,23 +13535,18 @@ Array [
                   "name": null,
                 },
               },
-              "source": null,
-              "start": Object {
+              "start": Position {
                 "column": 27,
                 "line": 7,
               },
             },
             "name": "split",
-            "optional": false,
-            "range": Array [
-              146,
-              151,
-            ],
+            "start": 146,
             "type": "Identifier",
-            "typeAnnotation": null,
           },
-          "loc": Object {
-            "end": Object {
+          "end": 171,
+          "loc": SourceLocation {
+            "end": Position {
               "column": 52,
               "line": 7,
             },
@@ -13569,21 +13646,16 @@ Array [
                 "name": null,
               },
             },
-            "source": null,
-            "start": Object {
+            "start": Position {
               "column": 27,
               "line": 7,
             },
           },
-          "range": Array [
-            146,
-            171,
-          ],
+          "start": 146,
           "type": "CallExpression",
-          "typeArguments": null,
         },
-        "loc": Object {
-          "end": Object {
+        "loc": SourceLocation {
+          "end": Position {
             "column": 52,
             "line": 7,
           },
@@ -13683,22 +13755,19 @@ Array [
               "name": null,
             },
           },
-          "source": null,
-          "start": Object {
+          "start": Position {
             "column": 6,
             "line": 7,
           },
         },
-        "range": Array [
-          125,
-          171,
-        ],
+        "start": 125,
         "type": "VariableDeclarator",
       },
     ],
+    "end": 172,
     "kind": "const",
-    "loc": Object {
-      "end": Object {
+    "loc": SourceLocation {
+      "end": Position {
         "column": 53,
         "line": 7,
       },
@@ -13798,27 +13867,26 @@ Array [
           "name": null,
         },
       },
-      "source": null,
-      "start": Object {
+      "start": Position {
         "column": 0,
         "line": 7,
       },
     },
-    "range": Array [
-      119,
-      172,
-    ],
+    "start": 119,
     "type": "VariableDeclaration",
   },
-  Object {
+  Node {
     "declarations": Array [
-      Object {
-        "id": Object {
-          "loc": Object {
-            "end": Object {
+      Node {
+        "end": 209,
+        "id": Node {
+          "end": 190,
+          "loc": SourceLocation {
+            "end": Position {
               "column": 17,
               "line": 8,
             },
+            "identifierName": "str",
             "indent": 0,
             "lines": Lines {
               "length": 12,
@@ -13915,22 +13983,18 @@ Array [
                 "name": null,
               },
             },
-            "source": null,
-            "start": Object {
+            "start": Position {
               "column": 6,
               "line": 8,
             },
           },
           "name": "str",
-          "optional": false,
-          "range": Array [
-            179,
-            190,
-          ],
+          "start": 179,
           "type": "Identifier",
-          "typeAnnotation": Object {
-            "loc": Object {
-              "end": Object {
+          "typeAnnotation": Node {
+            "end": 190,
+            "loc": SourceLocation {
+              "end": Position {
                 "column": 17,
                 "line": 8,
               },
@@ -14030,20 +14094,17 @@ Array [
                   "name": null,
                 },
               },
-              "source": null,
-              "start": Object {
+              "start": Position {
                 "column": 9,
                 "line": 8,
               },
             },
-            "range": Array [
-              182,
-              190,
-            ],
+            "start": 182,
             "type": "TypeAnnotation",
-            "typeAnnotation": Object {
-              "loc": Object {
-                "end": Object {
+            "typeAnnotation": Node {
+              "end": 190,
+              "loc": SourceLocation {
+                "end": Position {
                   "column": 17,
                   "line": 8,
                 },
@@ -14143,25 +14204,26 @@ Array [
                     "name": null,
                   },
                 },
-                "source": null,
-                "start": Object {
+                "start": Position {
                   "column": 11,
                   "line": 8,
                 },
               },
-              "range": Array [
-                184,
-                190,
-              ],
+              "start": 184,
               "type": "StringTypeAnnotation",
             },
           },
         },
-        "init": Object {
+        "init": Node {
           "arguments": Array [
-            Object {
-              "loc": Object {
-                "end": Object {
+            Node {
+              "end": 208,
+              "extra": Object {
+                "raw": "'XYZ'",
+                "rawValue": "XYZ",
+              },
+              "loc": SourceLocation {
+                "end": Position {
                   "column": 35,
                   "line": 8,
                 },
@@ -14261,25 +14323,21 @@ Array [
                     "name": null,
                   },
                 },
-                "source": null,
-                "start": Object {
+                "start": Position {
                   "column": 30,
                   "line": 8,
                 },
               },
-              "range": Array [
-                203,
-                208,
-              ],
-              "raw": "'XYZ'",
-              "type": "Literal",
+              "start": 203,
+              "type": "StringLiteral",
               "value": "XYZ",
             },
           ],
-          "callee": Object {
+          "callee": Node {
             "computed": false,
-            "loc": Object {
-              "end": Object {
+            "end": 202,
+            "loc": SourceLocation {
+              "end": Position {
                 "column": 29,
                 "line": 8,
               },
@@ -14379,18 +14437,19 @@ Array [
                   "name": null,
                 },
               },
-              "source": null,
-              "start": Object {
+              "start": Position {
                 "column": 20,
                 "line": 8,
               },
             },
-            "object": Object {
-              "loc": Object {
-                "end": Object {
+            "object": Node {
+              "end": 194,
+              "loc": SourceLocation {
+                "end": Position {
                   "column": 21,
                   "line": 8,
                 },
+                "identifierName": "R",
                 "indent": 0,
                 "lines": Lines {
                   "length": 12,
@@ -14487,27 +14546,23 @@ Array [
                     "name": null,
                   },
                 },
-                "source": null,
-                "start": Object {
+                "start": Position {
                   "column": 20,
                   "line": 8,
                 },
               },
               "name": "R",
-              "optional": false,
-              "range": Array [
-                193,
-                194,
-              ],
+              "start": 193,
               "type": "Identifier",
-              "typeAnnotation": null,
             },
-            "property": Object {
-              "loc": Object {
-                "end": Object {
+            "property": Node {
+              "end": 202,
+              "loc": SourceLocation {
+                "end": Position {
                   "column": 29,
                   "line": 8,
                 },
+                "identifierName": "toLower",
                 "indent": 0,
                 "lines": Lines {
                   "length": 12,
@@ -14604,29 +14659,21 @@ Array [
                     "name": null,
                   },
                 },
-                "source": null,
-                "start": Object {
+                "start": Position {
                   "column": 22,
                   "line": 8,
                 },
               },
               "name": "toLower",
-              "optional": false,
-              "range": Array [
-                195,
-                202,
-              ],
+              "start": 195,
               "type": "Identifier",
-              "typeAnnotation": null,
             },
-            "range": Array [
-              193,
-              202,
-            ],
+            "start": 193,
             "type": "MemberExpression",
           },
-          "loc": Object {
-            "end": Object {
+          "end": 209,
+          "loc": SourceLocation {
+            "end": Position {
               "column": 36,
               "line": 8,
             },
@@ -14726,21 +14773,16 @@ Array [
                 "name": null,
               },
             },
-            "source": null,
-            "start": Object {
+            "start": Position {
               "column": 20,
               "line": 8,
             },
           },
-          "range": Array [
-            193,
-            209,
-          ],
+          "start": 193,
           "type": "CallExpression",
-          "typeArguments": null,
         },
-        "loc": Object {
-          "end": Object {
+        "loc": SourceLocation {
+          "end": Position {
             "column": 36,
             "line": 8,
           },
@@ -14840,22 +14882,19 @@ Array [
               "name": null,
             },
           },
-          "source": null,
-          "start": Object {
+          "start": Position {
             "column": 6,
             "line": 8,
           },
         },
-        "range": Array [
-          179,
-          209,
-        ],
+        "start": 179,
         "type": "VariableDeclarator",
       },
     ],
+    "end": 210,
     "kind": "const",
-    "loc": Object {
-      "end": Object {
+    "loc": SourceLocation {
+      "end": Position {
         "column": 37,
         "line": 8,
       },
@@ -14955,27 +14994,26 @@ Array [
           "name": null,
         },
       },
-      "source": null,
-      "start": Object {
+      "start": Position {
         "column": 0,
         "line": 8,
       },
     },
-    "range": Array [
-      173,
-      210,
-    ],
+    "start": 173,
     "type": "VariableDeclaration",
   },
-  Object {
+  Node {
     "declarations": Array [
-      Object {
-        "id": Object {
-          "loc": Object {
-            "end": Object {
+      Node {
+        "end": 286,
+        "id": Node {
+          "end": 243,
+          "loc": SourceLocation {
+            "end": Position {
               "column": 31,
               "line": 10,
             },
+            "identifierName": "obj",
             "indent": 0,
             "lines": Lines {
               "length": 12,
@@ -15072,22 +15110,18 @@ Array [
                 "name": null,
               },
             },
-            "source": null,
-            "start": Object {
+            "start": Position {
               "column": 6,
               "line": 10,
             },
           },
           "name": "obj",
-          "optional": false,
-          "range": Array [
-            218,
-            243,
-          ],
+          "start": 218,
           "type": "Identifier",
-          "typeAnnotation": Object {
-            "loc": Object {
-              "end": Object {
+          "typeAnnotation": Node {
+            "end": 243,
+            "loc": SourceLocation {
+              "end": Position {
                 "column": 31,
                 "line": 10,
               },
@@ -15187,26 +15221,25 @@ Array [
                   "name": null,
                 },
               },
-              "source": null,
-              "start": Object {
+              "start": Position {
                 "column": 9,
                 "line": 10,
               },
             },
-            "range": Array [
-              221,
-              243,
-            ],
+            "start": 221,
             "type": "TypeAnnotation",
-            "typeAnnotation": Object {
+            "typeAnnotation": Node {
               "callProperties": Array [],
+              "end": 243,
               "exact": false,
               "indexers": Array [
-                Object {
+                Node {
+                  "end": 241,
                   "id": null,
-                  "key": Object {
-                    "loc": Object {
-                      "end": Object {
+                  "key": Node {
+                    "end": 232,
+                    "loc": SourceLocation {
+                      "end": Position {
                         "column": 20,
                         "line": 10,
                       },
@@ -15306,20 +15339,16 @@ Array [
                           "name": null,
                         },
                       },
-                      "source": null,
-                      "start": Object {
+                      "start": Position {
                         "column": 14,
                         "line": 10,
                       },
                     },
-                    "range": Array [
-                      226,
-                      232,
-                    ],
+                    "start": 226,
                     "type": "StringTypeAnnotation",
                   },
-                  "loc": Object {
-                    "end": Object {
+                  "loc": SourceLocation {
+                    "end": Position {
                       "column": 29,
                       "line": 10,
                     },
@@ -15419,21 +15448,18 @@ Array [
                         "name": null,
                       },
                     },
-                    "source": null,
-                    "start": Object {
+                    "start": Position {
                       "column": 13,
                       "line": 10,
                     },
                   },
-                  "range": Array [
-                    225,
-                    241,
-                  ],
+                  "start": 225,
                   "static": false,
                   "type": "ObjectTypeIndexer",
-                  "value": Object {
-                    "loc": Object {
-                      "end": Object {
+                  "value": Node {
+                    "end": 241,
+                    "loc": SourceLocation {
+                      "end": Position {
                         "column": 29,
                         "line": 10,
                       },
@@ -15533,25 +15559,19 @@ Array [
                           "name": null,
                         },
                       },
-                      "source": null,
-                      "start": Object {
+                      "start": Position {
                         "column": 23,
                         "line": 10,
                       },
                     },
-                    "range": Array [
-                      235,
-                      241,
-                    ],
+                    "start": 235,
                     "type": "NumberTypeAnnotation",
                   },
                   "variance": null,
                 },
               ],
-              "inexact": false,
-              "internalSlots": Array [],
-              "loc": Object {
-                "end": Object {
+              "loc": SourceLocation {
+                "end": Position {
                   "column": 31,
                   "line": 10,
                 },
@@ -15651,26 +15671,23 @@ Array [
                     "name": null,
                   },
                 },
-                "source": null,
-                "start": Object {
+                "start": Position {
                   "column": 11,
                   "line": 10,
                 },
               },
               "properties": Array [],
-              "range": Array [
-                223,
-                243,
-              ],
+              "start": 223,
               "type": "ObjectTypeAnnotation",
             },
           },
         },
-        "init": Object {
+        "init": Node {
           "arguments": Array [
-            Object {
-              "loc": Object {
-                "end": Object {
+            Node {
+              "end": 265,
+              "loc": SourceLocation {
+                "end": Position {
                   "column": 53,
                   "line": 10,
                 },
@@ -15770,18 +15787,23 @@ Array [
                     "name": null,
                   },
                 },
-                "source": null,
-                "start": Object {
+                "start": Position {
                   "column": 43,
                   "line": 10,
                 },
               },
               "properties": Array [
-                Object {
+                Node {
                   "computed": false,
-                  "key": Object {
-                    "loc": Object {
-                      "end": Object {
+                  "end": 263,
+                  "key": Node {
+                    "end": 260,
+                    "extra": Object {
+                      "raw": "'a'",
+                      "rawValue": "a",
+                    },
+                    "loc": SourceLocation {
+                      "end": Position {
                         "column": 48,
                         "line": 10,
                       },
@@ -15881,23 +15903,17 @@ Array [
                           "name": null,
                         },
                       },
-                      "source": null,
-                      "start": Object {
+                      "start": Position {
                         "column": 45,
                         "line": 10,
                       },
                     },
-                    "range": Array [
-                      257,
-                      260,
-                    ],
-                    "raw": "'a'",
-                    "type": "Literal",
+                    "start": 257,
+                    "type": "StringLiteral",
                     "value": "a",
                   },
-                  "kind": "init",
-                  "loc": Object {
-                    "end": Object {
+                  "loc": SourceLocation {
+                    "end": Position {
                       "column": 51,
                       "line": 10,
                     },
@@ -15997,22 +16013,23 @@ Array [
                         "name": null,
                       },
                     },
-                    "source": null,
-                    "start": Object {
+                    "start": Position {
                       "column": 45,
                       "line": 10,
                     },
                   },
                   "method": false,
-                  "range": Array [
-                    257,
-                    263,
-                  ],
                   "shorthand": false,
-                  "type": "Property",
-                  "value": Object {
-                    "loc": Object {
-                      "end": Object {
+                  "start": 257,
+                  "type": "ObjectProperty",
+                  "value": Node {
+                    "end": 263,
+                    "extra": Object {
+                      "raw": "1",
+                      "rawValue": 1,
+                    },
+                    "loc": SourceLocation {
+                      "end": Position {
                         "column": 51,
                         "line": 10,
                       },
@@ -16112,31 +16129,24 @@ Array [
                           "name": null,
                         },
                       },
-                      "source": null,
-                      "start": Object {
+                      "start": Position {
                         "column": 50,
                         "line": 10,
                       },
                     },
-                    "range": Array [
-                      262,
-                      263,
-                    ],
-                    "raw": "1",
-                    "type": "Literal",
+                    "start": 262,
+                    "type": "NumericLiteral",
                     "value": 1,
                   },
                 },
               ],
-              "range": Array [
-                255,
-                265,
-              ],
+              "start": 255,
               "type": "ObjectExpression",
             },
-            Object {
-              "loc": Object {
-                "end": Object {
+            Node {
+              "end": 285,
+              "loc": SourceLocation {
+                "end": Position {
                   "column": 73,
                   "line": 10,
                 },
@@ -16236,18 +16246,23 @@ Array [
                     "name": null,
                   },
                 },
-                "source": null,
-                "start": Object {
+                "start": Position {
                   "column": 55,
                   "line": 10,
                 },
               },
               "properties": Array [
-                Object {
+                Node {
                   "computed": false,
-                  "key": Object {
-                    "loc": Object {
-                      "end": Object {
+                  "end": 275,
+                  "key": Node {
+                    "end": 272,
+                    "extra": Object {
+                      "raw": "'a'",
+                      "rawValue": "a",
+                    },
+                    "loc": SourceLocation {
+                      "end": Position {
                         "column": 60,
                         "line": 10,
                       },
@@ -16347,23 +16362,17 @@ Array [
                           "name": null,
                         },
                       },
-                      "source": null,
-                      "start": Object {
+                      "start": Position {
                         "column": 57,
                         "line": 10,
                       },
                     },
-                    "range": Array [
-                      269,
-                      272,
-                    ],
-                    "raw": "'a'",
-                    "type": "Literal",
+                    "start": 269,
+                    "type": "StringLiteral",
                     "value": "a",
                   },
-                  "kind": "init",
-                  "loc": Object {
-                    "end": Object {
+                  "loc": SourceLocation {
+                    "end": Position {
                       "column": 63,
                       "line": 10,
                     },
@@ -16463,22 +16472,23 @@ Array [
                         "name": null,
                       },
                     },
-                    "source": null,
-                    "start": Object {
+                    "start": Position {
                       "column": 57,
                       "line": 10,
                     },
                   },
                   "method": false,
-                  "range": Array [
-                    269,
-                    275,
-                  ],
                   "shorthand": false,
-                  "type": "Property",
-                  "value": Object {
-                    "loc": Object {
-                      "end": Object {
+                  "start": 269,
+                  "type": "ObjectProperty",
+                  "value": Node {
+                    "end": 275,
+                    "extra": Object {
+                      "raw": "3",
+                      "rawValue": 3,
+                    },
+                    "loc": SourceLocation {
+                      "end": Position {
                         "column": 63,
                         "line": 10,
                       },
@@ -16578,26 +16588,27 @@ Array [
                           "name": null,
                         },
                       },
-                      "source": null,
-                      "start": Object {
+                      "start": Position {
                         "column": 62,
                         "line": 10,
                       },
                     },
-                    "range": Array [
-                      274,
-                      275,
-                    ],
-                    "raw": "3",
-                    "type": "Literal",
+                    "start": 274,
+                    "type": "NumericLiteral",
                     "value": 3,
                   },
                 },
-                Object {
+                Node {
                   "computed": false,
-                  "key": Object {
-                    "loc": Object {
-                      "end": Object {
+                  "end": 283,
+                  "key": Node {
+                    "end": 280,
+                    "extra": Object {
+                      "raw": "'b'",
+                      "rawValue": "b",
+                    },
+                    "loc": SourceLocation {
+                      "end": Position {
                         "column": 68,
                         "line": 10,
                       },
@@ -16697,23 +16708,17 @@ Array [
                           "name": null,
                         },
                       },
-                      "source": null,
-                      "start": Object {
+                      "start": Position {
                         "column": 65,
                         "line": 10,
                       },
                     },
-                    "range": Array [
-                      277,
-                      280,
-                    ],
-                    "raw": "'b'",
-                    "type": "Literal",
+                    "start": 277,
+                    "type": "StringLiteral",
                     "value": "b",
                   },
-                  "kind": "init",
-                  "loc": Object {
-                    "end": Object {
+                  "loc": SourceLocation {
+                    "end": Position {
                       "column": 71,
                       "line": 10,
                     },
@@ -16813,22 +16818,23 @@ Array [
                         "name": null,
                       },
                     },
-                    "source": null,
-                    "start": Object {
+                    "start": Position {
                       "column": 65,
                       "line": 10,
                     },
                   },
                   "method": false,
-                  "range": Array [
-                    277,
-                    283,
-                  ],
                   "shorthand": false,
-                  "type": "Property",
-                  "value": Object {
-                    "loc": Object {
-                      "end": Object {
+                  "start": 277,
+                  "type": "ObjectProperty",
+                  "value": Node {
+                    "end": 283,
+                    "extra": Object {
+                      "raw": "2",
+                      "rawValue": 2,
+                    },
+                    "loc": SourceLocation {
+                      "end": Position {
                         "column": 71,
                         "line": 10,
                       },
@@ -16928,35 +16934,29 @@ Array [
                           "name": null,
                         },
                       },
-                      "source": null,
-                      "start": Object {
+                      "start": Position {
                         "column": 70,
                         "line": 10,
                       },
                     },
-                    "range": Array [
-                      282,
-                      283,
-                    ],
-                    "raw": "2",
-                    "type": "Literal",
+                    "start": 282,
+                    "type": "NumericLiteral",
                     "value": 2,
                   },
                 },
               ],
-              "range": Array [
-                267,
-                285,
-              ],
+              "start": 267,
               "type": "ObjectExpression",
             },
           ],
-          "callee": Object {
-            "loc": Object {
-              "end": Object {
+          "callee": Node {
+            "end": 254,
+            "loc": SourceLocation {
+              "end": Position {
                 "column": 42,
                 "line": 10,
               },
+              "identifierName": "defaults",
               "indent": 0,
               "lines": Lines {
                 "length": 12,
@@ -17053,23 +17053,18 @@ Array [
                   "name": null,
                 },
               },
-              "source": null,
-              "start": Object {
+              "start": Position {
                 "column": 34,
                 "line": 10,
               },
             },
             "name": "defaults",
-            "optional": false,
-            "range": Array [
-              246,
-              254,
-            ],
+            "start": 246,
             "type": "Identifier",
-            "typeAnnotation": null,
           },
-          "loc": Object {
-            "end": Object {
+          "end": 286,
+          "loc": SourceLocation {
+            "end": Position {
               "column": 74,
               "line": 10,
             },
@@ -17169,21 +17164,16 @@ Array [
                 "name": null,
               },
             },
-            "source": null,
-            "start": Object {
+            "start": Position {
               "column": 34,
               "line": 10,
             },
           },
-          "range": Array [
-            246,
-            286,
-          ],
+          "start": 246,
           "type": "CallExpression",
-          "typeArguments": null,
         },
-        "loc": Object {
-          "end": Object {
+        "loc": SourceLocation {
+          "end": Position {
             "column": 74,
             "line": 10,
           },
@@ -17283,22 +17273,19 @@ Array [
               "name": null,
             },
           },
-          "source": null,
-          "start": Object {
+          "start": Position {
             "column": 6,
             "line": 10,
           },
         },
-        "range": Array [
-          218,
-          286,
-        ],
+        "start": 218,
         "type": "VariableDeclarator",
       },
     ],
+    "end": 287,
     "kind": "const",
-    "loc": Object {
-      "end": Object {
+    "loc": SourceLocation {
+      "end": Position {
         "column": 75,
         "line": 10,
       },
@@ -17398,27 +17385,26 @@ Array [
           "name": null,
         },
       },
-      "source": null,
-      "start": Object {
+      "start": Position {
         "column": 0,
         "line": 10,
       },
     },
-    "range": Array [
-      212,
-      287,
-    ],
+    "start": 212,
     "type": "VariableDeclaration",
   },
-  Object {
+  Node {
     "declarations": Array [
-      Object {
-        "id": Object {
-          "loc": Object {
-            "end": Object {
+      Node {
+        "end": 370,
+        "id": Node {
+          "end": 330,
+          "loc": SourceLocation {
+            "end": Position {
               "column": 42,
               "line": 11,
             },
+            "identifierName": "arrArr",
             "indent": 0,
             "lines": Lines {
               "length": 12,
@@ -17515,22 +17501,18 @@ Array [
                 "name": null,
               },
             },
-            "source": null,
-            "start": Object {
+            "start": Position {
               "column": 6,
               "line": 11,
             },
           },
           "name": "arrArr",
-          "optional": false,
-          "range": Array [
-            294,
-            330,
-          ],
+          "start": 294,
           "type": "Identifier",
-          "typeAnnotation": Object {
-            "loc": Object {
-              "end": Object {
+          "typeAnnotation": Node {
+            "end": 330,
+            "loc": SourceLocation {
+              "end": Position {
                 "column": 42,
                 "line": 11,
               },
@@ -17630,24 +17612,23 @@ Array [
                   "name": null,
                 },
               },
-              "source": null,
-              "start": Object {
+              "start": Position {
                 "column": 12,
                 "line": 11,
               },
             },
-            "range": Array [
-              300,
-              330,
-            ],
+            "start": 300,
             "type": "TypeAnnotation",
-            "typeAnnotation": Object {
-              "id": Object {
-                "loc": Object {
-                  "end": Object {
+            "typeAnnotation": Node {
+              "end": 330,
+              "id": Node {
+                "end": 307,
+                "loc": SourceLocation {
+                  "end": Position {
                     "column": 19,
                     "line": 11,
                   },
+                  "identifierName": "Array",
                   "indent": 0,
                   "lines": Lines {
                     "length": 12,
@@ -17744,23 +17725,17 @@ Array [
                       "name": null,
                     },
                   },
-                  "source": null,
-                  "start": Object {
+                  "start": Position {
                     "column": 14,
                     "line": 11,
                   },
                 },
                 "name": "Array",
-                "optional": false,
-                "range": Array [
-                  302,
-                  307,
-                ],
+                "start": 302,
                 "type": "Identifier",
-                "typeAnnotation": null,
               },
-              "loc": Object {
-                "end": Object {
+              "loc": SourceLocation {
+                "end": Position {
                   "column": 42,
                   "line": 11,
                 },
@@ -17860,20 +17835,17 @@ Array [
                     "name": null,
                   },
                 },
-                "source": null,
-                "start": Object {
+                "start": Position {
                   "column": 14,
                   "line": 11,
                 },
               },
-              "range": Array [
-                302,
-                330,
-              ],
+              "start": 302,
               "type": "GenericTypeAnnotation",
-              "typeParameters": Object {
-                "loc": Object {
-                  "end": Object {
+              "typeParameters": Node {
+                "end": 330,
+                "loc": SourceLocation {
+                  "end": Position {
                     "column": 42,
                     "line": 11,
                   },
@@ -17973,20 +17945,22 @@ Array [
                       "name": null,
                     },
                   },
-                  "source": null,
-                  "start": Object {
+                  "start": Position {
                     "column": 19,
                     "line": 11,
                   },
                 },
                 "params": Array [
-                  Object {
-                    "id": Object {
-                      "loc": Object {
-                        "end": Object {
+                  Node {
+                    "end": 329,
+                    "id": Node {
+                      "end": 313,
+                      "loc": SourceLocation {
+                        "end": Position {
                           "column": 25,
                           "line": 11,
                         },
+                        "identifierName": "Array",
                         "indent": 0,
                         "lines": Lines {
                           "length": 12,
@@ -18083,23 +18057,17 @@ Array [
                             "name": null,
                           },
                         },
-                        "source": null,
-                        "start": Object {
+                        "start": Position {
                           "column": 20,
                           "line": 11,
                         },
                       },
                       "name": "Array",
-                      "optional": false,
-                      "range": Array [
-                        308,
-                        313,
-                      ],
+                      "start": 308,
                       "type": "Identifier",
-                      "typeAnnotation": null,
                     },
-                    "loc": Object {
-                      "end": Object {
+                    "loc": SourceLocation {
+                      "end": Position {
                         "column": 41,
                         "line": 11,
                       },
@@ -18199,20 +18167,17 @@ Array [
                           "name": null,
                         },
                       },
-                      "source": null,
-                      "start": Object {
+                      "start": Position {
                         "column": 20,
                         "line": 11,
                       },
                     },
-                    "range": Array [
-                      308,
-                      329,
-                    ],
+                    "start": 308,
                     "type": "GenericTypeAnnotation",
-                    "typeParameters": Object {
-                      "loc": Object {
-                        "end": Object {
+                    "typeParameters": Node {
+                      "end": 329,
+                      "loc": SourceLocation {
+                        "end": Position {
                           "column": 41,
                           "line": 11,
                         },
@@ -18312,16 +18277,16 @@ Array [
                             "name": null,
                           },
                         },
-                        "source": null,
-                        "start": Object {
+                        "start": Position {
                           "column": 25,
                           "line": 11,
                         },
                       },
                       "params": Array [
-                        Object {
-                          "loc": Object {
-                            "end": Object {
+                        Node {
+                          "end": 320,
+                          "loc": SourceLocation {
+                            "end": Position {
                               "column": 32,
                               "line": 11,
                             },
@@ -18421,21 +18386,18 @@ Array [
                                 "name": null,
                               },
                             },
-                            "source": null,
-                            "start": Object {
+                            "start": Position {
                               "column": 26,
                               "line": 11,
                             },
                           },
-                          "range": Array [
-                            314,
-                            320,
-                          ],
+                          "start": 314,
                           "type": "NumberTypeAnnotation",
                         },
-                        Object {
-                          "loc": Object {
-                            "end": Object {
+                        Node {
+                          "end": 328,
+                          "loc": SourceLocation {
+                            "end": Position {
                               "column": 40,
                               "line": 11,
                             },
@@ -18535,43 +18497,38 @@ Array [
                                 "name": null,
                               },
                             },
-                            "source": null,
-                            "start": Object {
+                            "start": Position {
                               "column": 34,
                               "line": 11,
                             },
                           },
-                          "range": Array [
-                            322,
-                            328,
-                          ],
+                          "start": 322,
                           "type": "NumberTypeAnnotation",
                         },
                       ],
-                      "range": Array [
-                        313,
-                        329,
-                      ],
+                      "start": 313,
                       "type": "TypeParameterInstantiation",
                     },
                   },
                 ],
-                "range": Array [
-                  307,
-                  330,
-                ],
+                "start": 307,
                 "type": "TypeParameterInstantiation",
               },
             },
           },
         },
-        "init": Object {
+        "init": Node {
           "arguments": Array [
-            Object {
+            Node {
               "elements": Array [
-                Object {
-                  "loc": Object {
-                    "end": Object {
+                Node {
+                  "end": 347,
+                  "extra": Object {
+                    "raw": "1",
+                    "rawValue": 1,
+                  },
+                  "loc": SourceLocation {
+                    "end": Position {
                       "column": 59,
                       "line": 11,
                     },
@@ -18671,23 +18628,23 @@ Array [
                         "name": null,
                       },
                     },
-                    "source": null,
-                    "start": Object {
+                    "start": Position {
                       "column": 58,
                       "line": 11,
                     },
                   },
-                  "range": Array [
-                    346,
-                    347,
-                  ],
-                  "raw": "1",
-                  "type": "Literal",
+                  "start": 346,
+                  "type": "NumericLiteral",
                   "value": 1,
                 },
-                Object {
-                  "loc": Object {
-                    "end": Object {
+                Node {
+                  "end": 350,
+                  "extra": Object {
+                    "raw": "2",
+                    "rawValue": 2,
+                  },
+                  "loc": SourceLocation {
+                    "end": Position {
                       "column": 62,
                       "line": 11,
                     },
@@ -18787,23 +18744,23 @@ Array [
                         "name": null,
                       },
                     },
-                    "source": null,
-                    "start": Object {
+                    "start": Position {
                       "column": 61,
                       "line": 11,
                     },
                   },
-                  "range": Array [
-                    349,
-                    350,
-                  ],
-                  "raw": "2",
-                  "type": "Literal",
+                  "start": 349,
+                  "type": "NumericLiteral",
                   "value": 2,
                 },
-                Object {
-                  "loc": Object {
-                    "end": Object {
+                Node {
+                  "end": 353,
+                  "extra": Object {
+                    "raw": "3",
+                    "rawValue": 3,
+                  },
+                  "loc": SourceLocation {
+                    "end": Position {
                       "column": 65,
                       "line": 11,
                     },
@@ -18903,23 +18860,23 @@ Array [
                         "name": null,
                       },
                     },
-                    "source": null,
-                    "start": Object {
+                    "start": Position {
                       "column": 64,
                       "line": 11,
                     },
                   },
-                  "range": Array [
-                    352,
-                    353,
-                  ],
-                  "raw": "3",
-                  "type": "Literal",
+                  "start": 352,
+                  "type": "NumericLiteral",
                   "value": 3,
                 },
-                Object {
-                  "loc": Object {
-                    "end": Object {
+                Node {
+                  "end": 356,
+                  "extra": Object {
+                    "raw": "4",
+                    "rawValue": 4,
+                  },
+                  "loc": SourceLocation {
+                    "end": Position {
                       "column": 68,
                       "line": 11,
                     },
@@ -19019,23 +18976,19 @@ Array [
                         "name": null,
                       },
                     },
-                    "source": null,
-                    "start": Object {
+                    "start": Position {
                       "column": 67,
                       "line": 11,
                     },
                   },
-                  "range": Array [
-                    355,
-                    356,
-                  ],
-                  "raw": "4",
-                  "type": "Literal",
+                  "start": 355,
+                  "type": "NumericLiteral",
                   "value": 4,
                 },
               ],
-              "loc": Object {
-                "end": Object {
+              "end": 357,
+              "loc": SourceLocation {
+                "end": Position {
                   "column": 69,
                   "line": 11,
                 },
@@ -19135,27 +19088,26 @@ Array [
                     "name": null,
                   },
                 },
-                "source": null,
-                "start": Object {
+                "start": Position {
                   "column": 57,
                   "line": 11,
                 },
               },
-              "range": Array [
-                345,
-                357,
-              ],
+              "start": 345,
               "type": "ArrayExpression",
             },
-            Object {
+            Node {
               "async": false,
-              "body": Object {
-                "left": Object {
-                  "loc": Object {
-                    "end": Object {
+              "body": Node {
+                "end": 369,
+                "left": Node {
+                  "end": 365,
+                  "loc": SourceLocation {
+                    "end": Position {
                       "column": 77,
                       "line": 11,
                     },
+                    "identifierName": "n",
                     "indent": 0,
                     "lines": Lines {
                       "length": 12,
@@ -19252,23 +19204,17 @@ Array [
                         "name": null,
                       },
                     },
-                    "source": null,
-                    "start": Object {
+                    "start": Position {
                       "column": 76,
                       "line": 11,
                     },
                   },
                   "name": "n",
-                  "optional": false,
-                  "range": Array [
-                    364,
-                    365,
-                  ],
+                  "start": 364,
                   "type": "Identifier",
-                  "typeAnnotation": null,
                 },
-                "loc": Object {
-                  "end": Object {
+                "loc": SourceLocation {
+                  "end": Position {
                     "column": 81,
                     "line": 11,
                   },
@@ -19368,20 +19314,20 @@ Array [
                       "name": null,
                     },
                   },
-                  "source": null,
-                  "start": Object {
+                  "start": Position {
                     "column": 76,
                     "line": 11,
                   },
                 },
                 "operator": "%",
-                "range": Array [
-                  364,
-                  369,
-                ],
-                "right": Object {
-                  "loc": Object {
-                    "end": Object {
+                "right": Node {
+                  "end": 369,
+                  "extra": Object {
+                    "raw": "2",
+                    "rawValue": 2,
+                  },
+                  "loc": SourceLocation {
+                    "end": Position {
                       "column": 81,
                       "line": 11,
                     },
@@ -19481,27 +19427,24 @@ Array [
                         "name": null,
                       },
                     },
-                    "source": null,
-                    "start": Object {
+                    "start": Position {
                       "column": 80,
                       "line": 11,
                     },
                   },
-                  "range": Array [
-                    368,
-                    369,
-                  ],
-                  "raw": "2",
-                  "type": "Literal",
+                  "start": 368,
+                  "type": "NumericLiteral",
                   "value": 2,
                 },
+                "start": 364,
                 "type": "BinaryExpression",
               },
+              "end": 369,
               "expression": true,
               "generator": false,
               "id": null,
-              "loc": Object {
-                "end": Object {
+              "loc": SourceLocation {
+                "end": Position {
                   "column": 81,
                   "line": 11,
                 },
@@ -19601,19 +19544,20 @@ Array [
                     "name": null,
                   },
                 },
-                "source": null,
-                "start": Object {
+                "start": Position {
                   "column": 71,
                   "line": 11,
                 },
               },
               "params": Array [
-                Object {
-                  "loc": Object {
-                    "end": Object {
+                Node {
+                  "end": 360,
+                  "loc": SourceLocation {
+                    "end": Position {
                       "column": 72,
                       "line": 11,
                     },
+                    "identifierName": "n",
                     "indent": 0,
                     "lines": Lines {
                       "length": 12,
@@ -19710,36 +19654,25 @@ Array [
                         "name": null,
                       },
                     },
-                    "source": null,
-                    "start": Object {
+                    "start": Position {
                       "column": 71,
                       "line": 11,
                     },
                   },
                   "name": "n",
-                  "optional": false,
-                  "range": Array [
-                    359,
-                    360,
-                  ],
+                  "start": 359,
                   "type": "Identifier",
-                  "typeAnnotation": null,
                 },
               ],
-              "predicate": null,
-              "range": Array [
-                359,
-                369,
-              ],
-              "returnType": null,
+              "start": 359,
               "type": "ArrowFunctionExpression",
-              "typeParameters": null,
             },
           ],
-          "callee": Object {
+          "callee": Node {
             "computed": false,
-            "loc": Object {
-              "end": Object {
+            "end": 344,
+            "loc": SourceLocation {
+              "end": Position {
                 "column": 56,
                 "line": 11,
               },
@@ -19839,18 +19772,19 @@ Array [
                   "name": null,
                 },
               },
-              "source": null,
-              "start": Object {
+              "start": Position {
                 "column": 45,
                 "line": 11,
               },
             },
-            "object": Object {
-              "loc": Object {
-                "end": Object {
+            "object": Node {
+              "end": 334,
+              "loc": SourceLocation {
+                "end": Position {
                   "column": 46,
                   "line": 11,
                 },
+                "identifierName": "_",
                 "indent": 0,
                 "lines": Lines {
                   "length": 12,
@@ -19947,27 +19881,23 @@ Array [
                     "name": null,
                   },
                 },
-                "source": null,
-                "start": Object {
+                "start": Position {
                   "column": 45,
                   "line": 11,
                 },
               },
               "name": "_",
-              "optional": false,
-              "range": Array [
-                333,
-                334,
-              ],
+              "start": 333,
               "type": "Identifier",
-              "typeAnnotation": null,
             },
-            "property": Object {
-              "loc": Object {
-                "end": Object {
+            "property": Node {
+              "end": 344,
+              "loc": SourceLocation {
+                "end": Position {
                   "column": 56,
                   "line": 11,
                 },
+                "identifierName": "partition",
                 "indent": 0,
                 "lines": Lines {
                   "length": 12,
@@ -20064,29 +19994,21 @@ Array [
                     "name": null,
                   },
                 },
-                "source": null,
-                "start": Object {
+                "start": Position {
                   "column": 47,
                   "line": 11,
                 },
               },
               "name": "partition",
-              "optional": false,
-              "range": Array [
-                335,
-                344,
-              ],
+              "start": 335,
               "type": "Identifier",
-              "typeAnnotation": null,
             },
-            "range": Array [
-              333,
-              344,
-            ],
+            "start": 333,
             "type": "MemberExpression",
           },
-          "loc": Object {
-            "end": Object {
+          "end": 370,
+          "loc": SourceLocation {
+            "end": Position {
               "column": 82,
               "line": 11,
             },
@@ -20186,21 +20108,16 @@ Array [
                 "name": null,
               },
             },
-            "source": null,
-            "start": Object {
+            "start": Position {
               "column": 45,
               "line": 11,
             },
           },
-          "range": Array [
-            333,
-            370,
-          ],
+          "start": 333,
           "type": "CallExpression",
-          "typeArguments": null,
         },
-        "loc": Object {
-          "end": Object {
+        "loc": SourceLocation {
+          "end": Position {
             "column": 82,
             "line": 11,
           },
@@ -20300,22 +20217,19 @@ Array [
               "name": null,
             },
           },
-          "source": null,
-          "start": Object {
+          "start": Position {
             "column": 6,
             "line": 11,
           },
         },
-        "range": Array [
-          294,
-          370,
-        ],
+        "start": 294,
         "type": "VariableDeclarator",
       },
     ],
+    "end": 371,
     "kind": "const",
-    "loc": Object {
-      "end": Object {
+    "loc": SourceLocation {
+      "end": Position {
         "column": 83,
         "line": 11,
       },
@@ -20415,16 +20329,12 @@ Array [
           "name": null,
         },
       },
-      "source": null,
-      "start": Object {
+      "start": Position {
         "column": 0,
         "line": 11,
       },
     },
-    "range": Array [
-      288,
-      371,
-    ],
+    "start": 288,
     "type": "VariableDeclaration",
   },
 ]
