@@ -9260,13 +9260,13 @@ exports[`Babel code displayOutput 1`] = `
 [1mUsage for 'ramda' in 1 files[22m
 ---------
 
-[34mℹ[39m Using [1m1.22[22m% out of [1m246[22m available exports
+[34mℹ[39m Using [1m1.18[22m% out of [1m255[22m available exports
 
 [1mUsed fns (3)[22m
   - add, split, toLower
 
-[1mUnused fns (243)[22m
-  - __, addIndex, adjust, all, allPass, always, and, any, anyPass, ap, aperture, append, apply, applySpec, applyTo, ascend, assoc, assocPath, binary, bind, both, call, chain, clamp, clone, comparator, complement, compose, composeK, composeP, concat, cond, construct, constructN, contains, converge, countBy, curry, curryN, dec, defaultTo, descend, difference, differenceWith, dissoc, dissocPath, divide, drop, dropLast, dropLastWhile, dropRepeats, dropRepeatsWith, dropWhile, either, empty, endsWith, eqBy, eqProps, equals, evolve, F, filter, find, findIndex, findLast, findLastIndex, flatten, flip, forEach, forEachObjIndexed, fromPairs, groupBy, groupWith, gt, gte, has, hasIn, head, identical, identity, ifElse, inc, indexBy, indexOf, init, innerJoin, insert, insertAll, intersection, intersperse, into, invert, invertObj, invoker, is, isEmpty, isNil, join, juxt, keys, keysIn, last, lastIndexOf, length, lens, lensIndex, lensPath, lensProp, lift, liftN, lt, lte, map, mapAccum, mapAccumRight, mapObjIndexed, match, mathMod, max, maxBy, mean, median, memoize, memoizeWith, merge, mergeAll, mergeDeepLeft, mergeDeepRight, mergeDeepWith, mergeDeepWithKey, mergeWith, mergeWithKey, min, minBy, modulo, multiply, nAry, negate, none, not, nth, nthArg, o, objOf, of, omit, once, or, over, pair, partial, partialRight, partition, path, pathEq, pathOr, pathSatisfies, pick, pickAll, pickBy, pipe, pipeK, pipeP, pluck, prepend, product, project, prop, propEq, propIs, propOr, props, propSatisfies, range, reduce, reduceBy, reduced, reduceRight, reduceWhile, reject, remove, repeat, replace, reverse, scan, sequence, set, slice, sort, sortBy, sortWith, splitAt, splitEvery, splitWhen, startsWith, subtract, sum, symmetricDifference, symmetricDifferenceWith, T, tail, take, takeLast, takeLastWhile, takeWhile, tap, test, times, toPairs, toPairsIn, toString, toUpper, transduce, transpose, traverse, trim, tryCatch, type, unapply, unary, uncurryN, unfold, union, unionWith, uniq, uniqBy, uniqWith, unless, unnest, until, update, useWith, values, valuesIn, view, when, where, whereEq, without, xprod, zip, zipObj, zipWith
+[1mUnused fns (252)[22m
+  - __, addIndex, adjust, all, allPass, always, and, any, anyPass, ap, aperture, append, apply, applySpec, applyTo, ascend, assoc, assocPath, binary, bind, both, call, chain, clamp, clone, comparator, complement, compose, composeK, composeP, composeWith, concat, cond, construct, constructN, contains, converge, countBy, curry, curryN, dec, defaultTo, descend, difference, differenceWith, dissoc, dissocPath, divide, drop, dropLast, dropLastWhile, dropRepeats, dropRepeatsWith, dropWhile, either, empty, endsWith, eqBy, eqProps, equals, evolve, F, filter, find, findIndex, findLast, findLastIndex, flatten, flip, forEach, forEachObjIndexed, fromPairs, groupBy, groupWith, gt, gte, has, hasIn, hasPath, head, identical, identity, ifElse, inc, includes, indexBy, indexOf, init, innerJoin, insert, insertAll, intersection, intersperse, into, invert, invertObj, invoker, is, isEmpty, isNil, join, juxt, keys, keysIn, last, lastIndexOf, length, lens, lensIndex, lensPath, lensProp, lift, liftN, lt, lte, map, mapAccum, mapAccumRight, mapObjIndexed, match, mathMod, max, maxBy, mean, median, memoizeWith, merge, mergeAll, mergeDeepLeft, mergeDeepRight, mergeDeepWith, mergeDeepWithKey, mergeLeft, mergeRight, mergeWith, mergeWithKey, min, minBy, modulo, move, multiply, nAry, negate, none, not, nth, nthArg, o, objOf, of, omit, once, or, otherwise, over, pair, partial, partialRight, partition, path, pathEq, pathOr, pathSatisfies, pick, pickAll, pickBy, pipe, pipeK, pipeP, pipeWith, pluck, prepend, product, project, prop, propEq, propIs, propOr, props, propSatisfies, range, reduce, reduceBy, reduced, reduceRight, reduceWhile, reject, remove, repeat, replace, reverse, scan, sequence, set, slice, sort, sortBy, sortWith, splitAt, splitEvery, splitWhen, startsWith, subtract, sum, symmetricDifference, symmetricDifferenceWith, T, tail, take, takeLast, takeLastWhile, takeWhile, tap, test, then, thunkify, times, toPairs, toPairsIn, toString, toUpper, transduce, transpose, traverse, trim, tryCatch, type, unapply, unary, uncurryN, unfold, union, unionWith, uniq, uniqBy, uniqWith, unless, unnest, until, update, useWith, values, valuesIn, view, when, where, whereEq, without, xprod, zip, zipObj, zipWith
 "
 `;
 
@@ -20435,13 +20435,13 @@ exports[`Flow code displayOutput 1`] = `
 [1mUsage for 'ramda' in 1 files[22m
 ---------
 
-[34mℹ[39m Using [1m1.22[22m% out of [1m246[22m available exports
+[34mℹ[39m Using [1m1.18[22m% out of [1m255[22m available exports
 
 [1mUsed fns (3)[22m
   - add, split, toLower
 
-[1mUnused fns (243)[22m
-  - __, addIndex, adjust, all, allPass, always, and, any, anyPass, ap, aperture, append, apply, applySpec, applyTo, ascend, assoc, assocPath, binary, bind, both, call, chain, clamp, clone, comparator, complement, compose, composeK, composeP, concat, cond, construct, constructN, contains, converge, countBy, curry, curryN, dec, defaultTo, descend, difference, differenceWith, dissoc, dissocPath, divide, drop, dropLast, dropLastWhile, dropRepeats, dropRepeatsWith, dropWhile, either, empty, endsWith, eqBy, eqProps, equals, evolve, F, filter, find, findIndex, findLast, findLastIndex, flatten, flip, forEach, forEachObjIndexed, fromPairs, groupBy, groupWith, gt, gte, has, hasIn, head, identical, identity, ifElse, inc, indexBy, indexOf, init, innerJoin, insert, insertAll, intersection, intersperse, into, invert, invertObj, invoker, is, isEmpty, isNil, join, juxt, keys, keysIn, last, lastIndexOf, length, lens, lensIndex, lensPath, lensProp, lift, liftN, lt, lte, map, mapAccum, mapAccumRight, mapObjIndexed, match, mathMod, max, maxBy, mean, median, memoize, memoizeWith, merge, mergeAll, mergeDeepLeft, mergeDeepRight, mergeDeepWith, mergeDeepWithKey, mergeWith, mergeWithKey, min, minBy, modulo, multiply, nAry, negate, none, not, nth, nthArg, o, objOf, of, omit, once, or, over, pair, partial, partialRight, partition, path, pathEq, pathOr, pathSatisfies, pick, pickAll, pickBy, pipe, pipeK, pipeP, pluck, prepend, product, project, prop, propEq, propIs, propOr, props, propSatisfies, range, reduce, reduceBy, reduced, reduceRight, reduceWhile, reject, remove, repeat, replace, reverse, scan, sequence, set, slice, sort, sortBy, sortWith, splitAt, splitEvery, splitWhen, startsWith, subtract, sum, symmetricDifference, symmetricDifferenceWith, T, tail, take, takeLast, takeLastWhile, takeWhile, tap, test, times, toPairs, toPairsIn, toString, toUpper, transduce, transpose, traverse, trim, tryCatch, type, unapply, unary, uncurryN, unfold, union, unionWith, uniq, uniqBy, uniqWith, unless, unnest, until, update, useWith, values, valuesIn, view, when, where, whereEq, without, xprod, zip, zipObj, zipWith
+[1mUnused fns (252)[22m
+  - __, addIndex, adjust, all, allPass, always, and, any, anyPass, ap, aperture, append, apply, applySpec, applyTo, ascend, assoc, assocPath, binary, bind, both, call, chain, clamp, clone, comparator, complement, compose, composeK, composeP, composeWith, concat, cond, construct, constructN, contains, converge, countBy, curry, curryN, dec, defaultTo, descend, difference, differenceWith, dissoc, dissocPath, divide, drop, dropLast, dropLastWhile, dropRepeats, dropRepeatsWith, dropWhile, either, empty, endsWith, eqBy, eqProps, equals, evolve, F, filter, find, findIndex, findLast, findLastIndex, flatten, flip, forEach, forEachObjIndexed, fromPairs, groupBy, groupWith, gt, gte, has, hasIn, hasPath, head, identical, identity, ifElse, inc, includes, indexBy, indexOf, init, innerJoin, insert, insertAll, intersection, intersperse, into, invert, invertObj, invoker, is, isEmpty, isNil, join, juxt, keys, keysIn, last, lastIndexOf, length, lens, lensIndex, lensPath, lensProp, lift, liftN, lt, lte, map, mapAccum, mapAccumRight, mapObjIndexed, match, mathMod, max, maxBy, mean, median, memoizeWith, merge, mergeAll, mergeDeepLeft, mergeDeepRight, mergeDeepWith, mergeDeepWithKey, mergeLeft, mergeRight, mergeWith, mergeWithKey, min, minBy, modulo, move, multiply, nAry, negate, none, not, nth, nthArg, o, objOf, of, omit, once, or, otherwise, over, pair, partial, partialRight, partition, path, pathEq, pathOr, pathSatisfies, pick, pickAll, pickBy, pipe, pipeK, pipeP, pipeWith, pluck, prepend, product, project, prop, propEq, propIs, propOr, props, propSatisfies, range, reduce, reduceBy, reduced, reduceRight, reduceWhile, reject, remove, repeat, replace, reverse, scan, sequence, set, slice, sort, sortBy, sortWith, splitAt, splitEvery, splitWhen, startsWith, subtract, sum, symmetricDifference, symmetricDifferenceWith, T, tail, take, takeLast, takeLastWhile, takeWhile, tap, test, then, thunkify, times, toPairs, toPairsIn, toString, toUpper, transduce, transpose, traverse, trim, tryCatch, type, unapply, unary, uncurryN, unfold, union, unionWith, uniq, uniqBy, uniqWith, unless, unnest, until, update, useWith, values, valuesIn, view, when, where, whereEq, without, xprod, zip, zipObj, zipWith
 "
 `;
 
@@ -20495,6 +20495,7 @@ Array [
   "compose",
   "composeK",
   "composeP",
+  "composeWith",
   "concat",
   "cond",
   "construct",
@@ -20541,11 +20542,13 @@ Array [
   "gte",
   "has",
   "hasIn",
+  "hasPath",
   "head",
   "identical",
   "identity",
   "ifElse",
   "inc",
+  "includes",
   "indexBy",
   "indexOf",
   "init",
@@ -20586,7 +20589,6 @@ Array [
   "maxBy",
   "mean",
   "median",
-  "memoize",
   "memoizeWith",
   "merge",
   "mergeAll",
@@ -20594,11 +20596,14 @@ Array [
   "mergeDeepRight",
   "mergeDeepWith",
   "mergeDeepWithKey",
+  "mergeLeft",
+  "mergeRight",
   "mergeWith",
   "mergeWithKey",
   "min",
   "minBy",
   "modulo",
+  "move",
   "multiply",
   "nAry",
   "negate",
@@ -20612,6 +20617,7 @@ Array [
   "omit",
   "once",
   "or",
+  "otherwise",
   "over",
   "pair",
   "partial",
@@ -20627,6 +20633,7 @@ Array [
   "pipe",
   "pipeK",
   "pipeP",
+  "pipeWith",
   "pluck",
   "prepend",
   "product",
@@ -20671,6 +20678,7 @@ Array [
   "takeWhile",
   "tap",
   "test",
+  "then",
   "times",
   "toLower",
   "toPairs",
@@ -20708,6 +20716,7 @@ Array [
   "zip",
   "zipObj",
   "zipWith",
+  "thunkify",
 ]
 `;
 
