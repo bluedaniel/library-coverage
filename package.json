@@ -36,19 +36,19 @@
   },
   "dependencies": {
     "babylon": "^6.18.0",
-    "chalk": "^2.3.2",
+    "chalk": "^2.4.1",
     "find-node-modules": "^1.0.4",
     "flow-parser": "^0.67.0",
     "glob": "^7.1.2",
-    "jest": "^22.4.2",
     "lodash": "^4.17.11",
     "log-symbols": "^2.2.0",
-    "meow": "^4.0.0",
+    "meow": "^4.0.1",
     "prettier": "^1.15.3",
     "ramda": "^0.26.1",
     "recast": "^0.14.4"
   },
   "devDependencies": {
+    "jest": "^23.6.0",
     "xo": "^0.23.0"
   }
 }
