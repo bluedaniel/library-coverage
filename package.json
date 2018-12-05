@@ -1,6 +1,6 @@
 {
   "name": "library-coverage",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Check usage of a library",
   "main": "cli.js",
   "repository": "git+https://github.com/bluedaniel/library-coverage.git",
