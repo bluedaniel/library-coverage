@@ -3,6 +3,7 @@
   "version": "1.4.0",
   "description": "Check usage of a library",
   "main": "cli.js",
+  "repository": "git+https://github.com/bluedaniel/library-coverage.git",
   "scripts": {
     "test": "xo & jest"
   },
@@ -48,6 +49,6 @@
     "recast": "^0.14.4"
   },
   "devDependencies": {
-    "xo": "^0.20.3"
+    "xo": "^0.23.0"
   }
 }
